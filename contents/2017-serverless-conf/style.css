@@ -1,0 +1,74 @@
+@charset 'utf-8';
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/grid.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/container.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/segment.min.css');
+
+.cloudcraft {
+    position: relative;
+}
+.cloudcraft img {
+    width: 85%;
+    position: absolute;
+    right: -190px;
+    top: 10px;
+    transform: rotate(-15deg);
+}
+.cloudcraft .text {
+    position: absolute;
+}
+
+.text .icon img {
+    max-width: 50px;
+    vertical-align: middle;
+    position: relative;
+    right: 0;
+    top: 0;
+    transform: rotate(-15deg);
+}
+
+.resize-w240 > img {
+    max-width: 240px;
+}
+
+.resize-h img {
+    max-height: 210px;
+}
+
+.small {
+    font-size: 75%;
+}
+
+.small p {
+    margin-top: 0;
+}
+
+.remark-slide-content h2 {
+    margin-bottom: 0;
+}
+
+.remark-slide-content h2 .english p {
+    margin-bottom: 0;
+    font-size: 28px;
+}
+
+.remark-slide-content h3 {
+    border-bottom: inset 2px rgb(170, 0, 0);
+    line-height: .9;
+    padding-left: 24px;
+    width: 95%;
+}
+
+.remark-slide-content  h3 .english p {
+    font-size: 28px;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+.remark-slide-content h4 {
+    margin: 0;
+}
+
+.remark-slide-content h4 + ul {
+    margin-top: 0;
+}
