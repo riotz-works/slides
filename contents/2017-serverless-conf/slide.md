@@ -48,8 +48,8 @@ layout: false
   面白そうなら何でも手を出し、面白くなければ楽しくすることを考えて、日々を過ごす。
 ]
 .four.wide.column[
-  .resize-w240[![](/slides/bio/lulzneko/photo.jpg)]  
-  .resize-w240[![](/slides/bio/certs/aws-solutions-architect-professional.jpg)]  
+  .resize-w240[![](bio/lulzneko/photo.jpg)]  
+  .resize-w240[![](bio/certs/aws-solutions-architect-professional.jpg)]  
   .social[.fa[.fa-github[]] [@lulzneko](https://github.com/lulzneko)]  
   .social[.fa[.fa-twitter[]] [@lulzneko](https://twitter.com/lulzneko)]  
 ]
@@ -73,7 +73,7 @@ layout: false
   仕事もプライベートも、一所懸命ロックンロールしたいと思っている、ウェブエンジニア。
 ]
 .four.wide.column[
-  .resize-w240[![](/slides/bio/lopburny/photo.jpg)]  
+  .resize-w240[![](bio/lopburny/photo.jpg)]  
   .social[.fa[.fa-github[]] [@lopburny](https://github.com/lopburny)]  
   .social[.fa[.fa-twitter[]] [@lopburny](https://twitter.com/lopburny)]  
 ]
@@ -106,7 +106,7 @@ class: center, middle
 - Web の フロント開発経験 エンジニア １名
 - DevOps 体制
 ]
-![](/slides/contents/2017-serverless-conf/images/server-type-system-before-migration.png "移行前システムのアーキ図")
+![](contents/2017-serverless-conf/images/server-type-system-before-migration.png "移行前システムのアーキ図")
 ]
 
 
@@ -125,7 +125,7 @@ class: center, middle
 - Lambda の Java ランタイム が ローンチされるのを待って、移行開始
 - フレームワークの変更や抽象化層の変更などを行うが、基本そのまま
 ]
-![](/slides/contents/2017-serverless-conf/images/architecture-change-to-lambda.png "移行後システムのアーキ図")
+![](contents/2017-serverless-conf/images/architecture-change-to-lambda.png "移行後システムのアーキ図")
 ]
 
 
@@ -147,7 +147,7 @@ class: center, middle
 
 #### そして... ~~伝説へ~~
 ]
-![](/slides/contents/2017-serverless-conf/images/enhanced-system.png "エンハンス後システムのアーキ図")
+![](contents/2017-serverless-conf/images/enhanced-system.png "エンハンス後システムのアーキ図")
 ]
 
 
@@ -170,7 +170,7 @@ class: center, middle
 - 分割しすぎ、パス長すぎ！
 - コールドスタート、甘く見すぎ！
 ]
-![](/slides/contents/2017-serverless-conf/images/enhanced-system-problem.png "エンハンス後システムのアーキ図 と 原因")
+![](contents/2017-serverless-conf/images/enhanced-system-problem.png "エンハンス後システムのアーキ図 と 原因")
 ]
 
 
@@ -193,10 +193,10 @@ class: center, middle
 .seven.wide.column[
 .small[
 AWS Lambda の 処理時間比較
-.resize-h[![](/slides/contents/2017-serverless-conf/images/lambda-perf-diff.png)]
+.resize-h[![](contents/2017-serverless-conf/images/lambda-perf-diff.png)]
 
 AWS Lambda で 高CPU負荷時の処理時間比較
-.resize-h[![](/slides/contents/2017-serverless-conf/images/lambda-perf-cpu.png)]
+.resize-h[![](contents/2017-serverless-conf/images/lambda-perf-cpu.png)]
 ]
 ]
 ]
@@ -399,9 +399,9 @@ class: center, middle
   #### コールドスタート時のレスポンスタイム
 
 .icon[
-![](/slides/contents/2017-serverless-conf/images/time-yellow.png "Lambda not in VPC") __Lambda (Java) : 7s ~ 10s__ ↑  
+![](contents/2017-serverless-conf/images/time-yellow.png "Lambda not in VPC") __Lambda (Java) : 7s ~ 10s__ ↑  
 
-![](/slides/contents/2017-serverless-conf/images/time-red.png "Lambda in VPC") __VPC Lambda (Java) : 17s ~ 20s__ ↑
+![](contents/2017-serverless-conf/images/time-red.png "Lambda in VPC") __VPC Lambda (Java) : 17s ~ 20s__ ↑
 ]
 
 呼び出しチェーンの中で 1回でも  
@@ -409,7 +409,7 @@ class: center, middle
 （特にVPC Lambda）
 ほぼタイムアウト　
 ]
-![](/slides/contents/2017-serverless-conf/images/enhanced-system-improved-response-time-before.png "改善される前")
+![](contents/2017-serverless-conf/images/enhanced-system-improved-response-time-before.png "改善される前")
 ]
 
 ---
@@ -421,9 +421,9 @@ class: center, middle
   #### コールドスタート時のレスポンスタイム
 
 .icon[
-![](/slides/contents/2017-serverless-conf/images/time-green.png "Lambda not in VPC") __Lambda (Node.js) : 2s ~ 3s__ ↑  
+![](contents/2017-serverless-conf/images/time-green.png "Lambda not in VPC") __Lambda (Node.js) : 2s ~ 3s__ ↑  
 
-![](/slides/contents/2017-serverless-conf/images/time-yellow.png "Lambda in VPC") __VPC Lambda (Node.js) : 10s ~ 13s__ ↑
+![](contents/2017-serverless-conf/images/time-yellow.png "Lambda in VPC") __VPC Lambda (Node.js) : 10s ~ 13s__ ↑
 ]
 
 VPC Lambda の場合、ある程度  
@@ -431,7 +431,7 @@ VPC Lambda の場合、ある程度
 API Gateway のタイムアウトには  
 何とか持ちこたえることができる
 ]
-![](/slides/contents/2017-serverless-conf/images/enhanced-system-improved-response-time-after.png "改善される後")
+![](contents/2017-serverless-conf/images/enhanced-system-improved-response-time-after.png "改善される後")
 ]
 
 
