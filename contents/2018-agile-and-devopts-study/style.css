@@ -18,6 +18,14 @@
     position: absolute;
 }
 
+.slide img {
+    width: 65%;
+}
+
+.arch img {
+    width: 58%;
+}
+
 .text .icon img {
     max-width: 50px;
     vertical-align: middle;
@@ -41,6 +49,16 @@
 
 .small p {
     margin-top: 0;
+}
+
+.marker {
+    background: linear-gradient(transparent 60%, #ffe5cc 0);
+    font-weight: 700;
+}
+
+.centering {
+    text-align: center;
+    line-height: 200%;
 }
 
 .remark-slide-content h2 {
