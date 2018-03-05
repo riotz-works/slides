@@ -6,7 +6,10 @@ class: cover, center, middle
 .english[
   Development on AWS Lambda with TypeScript, which is promoted by Java developers
 ]
-.footer[Slides are posted on .url[[`https://goo.gl/Mn5xab`](https://goo.gl/Mn5xab)]]
+.footer[
+  @Serverlessconf Tokyo of November 2017  
+  Slides are posted on .url[[`https://goo.gl/Mn5xab`](https://goo.gl/Mn5xab)]  
+]
 
 
 ---
