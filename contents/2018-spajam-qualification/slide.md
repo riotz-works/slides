@@ -8,7 +8,7 @@ class: cover, center, middle
   ~PSYCHEDELIC VIOLENCE CRIME OF VISUAL SHOCK~
 ]
 .footer[
-  @SPAJAM 2018 東京D予選 ドワンゴ  
+  @SPAJAM 2018 東京D予選 ドワンゴ / 8 min  
   Slides are posted on .url[[`https://bit.ly/2K2MfzT`](https://bit.ly/2K2MfzT)]  
 ]
 

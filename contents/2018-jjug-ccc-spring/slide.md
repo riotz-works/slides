@@ -7,7 +7,7 @@ class: cover, center, middle
   Serverless development to accelerate by switching from Java to TypeScript
 ]
 .footer[
-  @JJUG CCC 2018 Spring  
+  @JJUG CCC 2018 Spring / 45 min  
   Slides are posted on .url[[`https://bit.ly/2KRgCFS`](https://bit.ly/2KRgCFS)]  
 ]
 

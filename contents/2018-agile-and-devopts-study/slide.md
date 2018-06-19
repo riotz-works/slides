@@ -9,7 +9,7 @@ class: cover, center, middle
   Agile and DevOps practices in backend development team of systems to automatically personalize smart devices and cloud services
 ]
 .footer[
-  @Agile & DevOps Study of February 2018  
+  @Agile & DevOps Study 2018.02 / 25 min  
   Slides are posted on .url[[`https://goo.gl/9tUuvS`](https://goo.gl/9tUuvS)]  
 ]
 
