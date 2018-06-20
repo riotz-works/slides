@@ -87,7 +87,8 @@ class: center, backcover
 
 .resize-h320-box[.resize-h320[![](bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
 .resize-h320-box[.resize-h320[![](bio/lopburny/photo.jpg)] .img-text[lopburny]]
-.resize-h320-box[.resize-h320[![](bio/javaponny/photo.jpg)] .img-text[javaponny]]
+.resize-h320-box[.resize-h320[![](bio/javaponny/photo.jpg)] .img-text[javaponny]]  
+.small[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz Works は 開発チームの名称です。  ]
 
 .footer[
   Slides are posted on .url[[`https://bit.ly/2K2MfzT`](https://bit.ly/2K2MfzT)]  
