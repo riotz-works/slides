@@ -48,6 +48,7 @@ a:hover, a:active {
     font-family: 'Quicksand';
     font-size: 85%;
     margin-top: 0;
+    margin-left: 12px;
 }
 
 .remark-slide-content {
@@ -68,6 +69,16 @@ a:hover, a:active {
     font-size: 18px;
 }
 
+.remark-slide-content h2 {
+    margin-bottom: 0;
+}
+
+.remark-slide-content h2 .english p {
+    margin-bottom: 0;
+    margin-top: 8px;
+    font-size: 28px;
+}
+
 .remark-slide-content h3 {
     border-bottom: inset 2px rgb(170, 0, 0);
     line-height: .9;
@@ -75,10 +86,11 @@ a:hover, a:active {
     width: 95%;
 }
 
-.remark-slide-content  h3 .english p {
+.remark-slide-content h3 .english p {
     font-size: 28px;
     margin-bottom: 0;
-    margin-top: 3px;
+    margin-top: 8px;
+    margin-left: 24px;
 }
 
 .remark-slide-content h4 {
@@ -189,4 +201,8 @@ li p {
 
 .footer .url a {
     font-family: 'Fira Code';
+}
+
+.ratio48-9-right {
+    display: none;
 }

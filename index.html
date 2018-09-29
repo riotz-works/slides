@@ -29,32 +29,34 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <script>
-        let source = window.location.search.replace(/[?]/g, '');
+        const source = window.location.search.replace(/[?]/g, '');
+        const slide = source.indexOf('&') !== -1 ? source.substring(0, source.indexOf('&')) : source;
+        const params = new URLSearchParams(source);
 
-        if (source) {
+        if (slide) {
             let link = document.createElement('link');
             link.rel = 'stylesheet';
-            link.href = 'contents/' + source + '/style.css';
+            link.href = 'contents/' + slide + '/style.css';
             document.querySelector('head').appendChild(link);
         }
 
-        let slideshow = remark.create({
-            sourceUrl: source ? 'contents/' + source + '/slide.md' : 'README.md',
-            ratio: '16:9',    // Set the slideshow display ratio. Default: '4:3', Alternatives: '16:9', ...
+        const slideshow = remark.create({
+            sourceUrl: slide ? `contents/${slide}/slide.md` : 'README.md',
+            ratio: params.get('ratio') || '16:9',    // Set the slideshow display ratio. Default: '4:3', Alternatives: '16:9', ...
             navigation: {
-                scroll: true,  // Enable or disable navigating using scroll. Default: true,  Alternatives: false
-                touch: true,   // Enable or disable navigation using touch.  Default: true,  Alternatives: false
+                scroll: true,   // Enable or disable navigating using scroll. Default: true,  Alternatives: false
+                touch: true,    // Enable or disable navigation using touch.  Default: true,  Alternatives: false
                 click: false    // Enable or disable navigation using click.  Default: false, Alternatives: true
             }
-        }, function(slideshow) {
+        }, (slideshow) => {
             let title = slideshow.getSlides()[0].properties.name;
             if (title) {
                 document.querySelector('title').text = title + '| Slides | Riotz Works';
             }
         });
 
-        slideshow.on('showSlide', function(slide) {});
-        slideshow.on('hideSlide', function(slide) {});
+        slideshow.on('showSlide', (slide) => {});
+        slideshow.on('hideSlide', (slide) => {});
     </script>
 </body>
 </html>
