@@ -414,7 +414,7 @@ layout: false
 ---
 .ratio48-9-left[
 ### と思っていたのに...
-<img src="contents/2018-serverless-conf/images/301.png"　width="300" height="300" />
+<img src="contents/2018-serverless-conf/images/301.PNG"　width="300" height="300" />
 - tsconfig esnext.asynciterableも入れたのに…。
 - 時間の制約上ここばかりに時間をかけられないため、queryは泣く泣くDynamoDB DocumentClientを使うことに
 - とはいえ他の操作についてはクラスのマッピングなどは助けられた
