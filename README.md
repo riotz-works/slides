@@ -13,3 +13,6 @@ class: cover
 
 - [リアルタイム動画ラップ バトル アプリを](?2018-serverless-conf)  
   　　[短時間で作り上げた完全サーバーレスな秘技](?2018-serverless-conf) @Serverlessconf Tokyo 2018 [[発表用48:9版](serverlessconf-tokyo-2018.html)]
+
+- [Vue.js/Nuxt.js で 実現できた](?2018-vue-fes-reject-con)  
+  　　[PWA の リアルタイム動画ラップ バトル アプリ](?2018-vue-fes-reject-con) @Vue Fes Japan 2018 Reject Conference
