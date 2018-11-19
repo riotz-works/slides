@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css');
-@import url('https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css');
+@import url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css');
 
 @page {
     size: 1210px 681px;  /* For 4:3 provide size: 908px 681px; */
@@ -205,4 +205,8 @@ li p {
 
 .ratio48-9-right {
     display: none;
+}
+
+.event-name {
+    font-size: 85%;
 }
