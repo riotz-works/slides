@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz Works
 
+- [サーバーレスで最高に楽しめるアプリ開発](?2019-devsumi) .event-name[@Developers Summit 2019]
+
 - [Vue.js/Nuxt.js で 実現できた PWA の リアルタイム動画ラップ バトル アプリ](?2018-nodefest)  
   　　[～ フル Node.js エコシステム で 戦った モバイルアプリのハッカソン～](?2018-nodefest) .event-name[@東京Node学園祭2018]
 
