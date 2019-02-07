@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz Works
 
+- [AWS x JAMStack で構築・運用するサーバーレスな Web Front](?2019-jaws-days) .event-name[@JAWS DAYS 2019]
+
 - [サーバーレスで最高に楽しめるアプリ開発](?2019-devsumi) .event-name[@Developers Summit 2019]
 
 - [Vue.js/Nuxt.js で 実現できた PWA の リアルタイム動画ラップ バトル アプリ](?2018-nodefest)  
