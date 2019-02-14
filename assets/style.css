@@ -183,6 +183,12 @@ li p {
     font-weight: 600;
 }
 
+.mail {
+    line-height: 64px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
 .footnote {
     bottom: 4em;
     margin-bottom: 0;
