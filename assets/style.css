@@ -29,6 +29,11 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
+.url {
+    font-family: 'Fira Code';
+    font-weight: 300;
+}
+
 h4 + p {
     margin-top: 0;
 }
@@ -207,6 +212,7 @@ li p {
 
 .footer .url a {
     font-family: 'Fira Code';
+    font-weight: normal;
 }
 
 .ratio48-9-right {
