@@ -6,7 +6,8 @@ class: cover
 - [サーバーレスで最高に楽しめるアプリ開発](?2019-devsumi) .event-name[@Developers Summit 2019]
 
 - [Vue.js/Nuxt.js で 実現できた PWA の リアルタイム動画ラップ バトル アプリ](?2018-nodefest)  
-  　　[～ フル Node.js エコシステム で 戦った モバイルアプリのハッカソン～](?2018-nodefest) .event-name[@東京Node学園祭2018]
+  　　[～ フル Node.js エコシステム で 戦った モバイルアプリのハッカソン～](?2018-nodefest) .event-name[@東京Node学園祭2018]  
+  　　⇒ YouTube [https://youtu.be/pPerXeXXR9w](https://youtu.be/pPerXeXXR9w)
 
 - [Vue.js/Nuxt.js で 実現できた](?2018-vue-fes-reject-con)  
   　　[PWA の リアルタイム動画ラップ バトル アプリ](?2018-vue-fes-reject-con) .event-name[@Vue Fes Japan 2018 Reject Conference]
