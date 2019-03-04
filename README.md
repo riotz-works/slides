@@ -21,6 +21,6 @@ class: cover
 - [Java から TypeScript へ 切り替えて加速するサーバーレス開発](https://riotz.works/slides/?2018-jjug-ccc-spring) .event-name[@JJUG CCC 2018 Spring]
 
 - [スマートデバイス と クラウドサービス を 自動パーソナライズする](https://riotz.works/slides/?2018-agile-and-devopts-study)  
-  　　[IoT バックエンド開発チームにおける Agile と DevOps プラクティス](https://riotz.works/slides/?2018-agile-and-devopts-study) .event-name[@Agile & DevOps 勉強会]
+  　　[IoT バックエンド開発チームにおける Agile と DevOps プラクティス](https://riotz.works/slides/?2018-agile-and-devopts-study) .event-name[@Agile & DevOps 勉強会 [CLOSED]]
 
 - [Java チームが選択した TypeScript による AWS Lambda 開発](https://riotz.works/slides/?2017-serverless-conf) .event-name[@Serverlessconf Tokyo 2017]
