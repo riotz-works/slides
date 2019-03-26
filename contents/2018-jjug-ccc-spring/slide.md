@@ -3,6 +3,7 @@ count: false
 class: cover, center, middle
 # Java から TypeScript へ 切り替えて
 # 加速するサーバーレス開発
+.event-logo[![](assets/logo/jjug.png)]
 .english[
   Serverless development to accelerate by switching from Java to TypeScript
 ]

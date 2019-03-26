@@ -3,6 +3,7 @@ count: false
 class: cover, center, middle
 # Vue.js/Nuxt.js で 実現できた
 # PWAなリアルタイム動画ラップバトルアプリ
+.event-logo[![](assets/logo/vuefes.png)]
 .english[
   A Mobile PWA of real-time video streaming for freestyle rap battle app, **powered by Vue.js/Nuxt.js**
 ]

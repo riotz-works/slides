@@ -3,6 +3,7 @@ count: false
 class: cover, center, middle
 # リアルタイム動画ラップ バトル アプリを
 # 短時間で作り上げた完全サーバーレスな秘技
+.event-logo[![](assets/logo/serverlessconf.png)]
 .english[
   Serverless tricks which real-time video rap battle application was built in a short time
 ]

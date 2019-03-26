@@ -3,6 +3,7 @@ count: false
 class: cover, center, middle
 # AWS x JAMStack で構築・運用する
 # サーバーレスな Web Front
+.event-logo[![](assets/logo/jaws-days-2019.png)]
 .english[
   Serverless Web Front developed and operated by AWS & JAMStack
 ]

@@ -1,9 +1,9 @@
 name: リアルタイム の 競演 と 参加型観戦 で 音楽を最高に楽しむ🎶  「ラップ、タップ、アップ」
 count: false
 class: cover, center, middle
-# リアルタイム の 競演 と 参加型観戦 で
-# 音楽を最高に楽しむ🎶
-# 「ラップ、タップ、アップ」
+# リアルタイムの競演と参加型観戦で音楽を
+# 最高に楽しむ「ラップ､タップ､アップ🎶」
+.event-logo[![](assets/logo/spajam.png)]
 .english[
   ~PSYCHEDELIC VIOLENCE CRIME OF VISUAL SHOCK~
 ]

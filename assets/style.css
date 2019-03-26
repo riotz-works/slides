@@ -48,6 +48,13 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
+.event-logo img {
+    width: 200px;
+    top: 4px;
+    right: 4px;
+    position: absolute;
+}
+
 .english p {
     color: #666;
     font-family: 'Quicksand';

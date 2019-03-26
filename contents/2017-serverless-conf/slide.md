@@ -3,6 +3,7 @@ count: false
 class: cover, center, middle
 # Java チームが選択した
 # TypeScript による AWS Lambda 開発
+.event-logo[![](assets/logo/serverlessconf.png)]
 .english[
   Development on AWS Lambda with TypeScript, which is promoted by Java developers
 ]

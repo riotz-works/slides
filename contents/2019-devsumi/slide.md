@@ -2,6 +2,7 @@ name: サーバーレスで最高に楽しめるアプリ開発
 count: false
 class: cover, center, middle
 # サーバーレスで最高に楽しめるアプリ開発
+.event-logo[![](assets/logo/devsumi.png)]
 .english[
   Application development with serverless is most fun !
 ]
