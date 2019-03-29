@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz Works
 
+- [JAMStackで構築・運用するサーバーレスなウェブフロント](https://riotz.works/slides/?2019-shiftup-jp_getshifter-vol3) .event-name[@Shiftup! JP_Getshifter Vol3]
+
 - [AWS x JAMStack で構築・運用するサーバーレスな Web Front](https://riotz.works/slides/?2019-jaws-days) .event-name[@JAWS DAYS 2019]
 
 - [サーバーレスで最高に楽しめるアプリ開発](https://riotz.works/slides/?2019-devsumi) .event-name[@Developers Summit 2019]
