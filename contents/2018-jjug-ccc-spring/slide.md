@@ -53,7 +53,7 @@ layout: false
 
 .footnote[
   ※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。  
-  　 また Riotz Works は 開発チームの名称です。  
+  　 また Riotz.works は 開発チームの名称です。  
 ]
 
 

@@ -1,5 +1,5 @@
 class: cover
-# Slides | Riotz Works
+# Slides | Riotz.works
 
 - [JAMStackで構築・運用するサーバーレスなウェブフロント](?2019-shiftup-jp_getshifter-vol3) .event-name[@Shiftup! JP_Getshifter Vol3]
 

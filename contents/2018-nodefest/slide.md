@@ -41,14 +41,14 @@ class: center, middle
 layout: false
 ### About us
 .center[
-  .text-large-48[.marker[Riotz Works]], a cheerful engineering team !!  
+  .text-large-48[.marker[Riotz.works]], a cheerful engineering team !!  
   〝サーバーレス は アプリ開発者 に とって最強の武器″ を 標榜するエンジニア集団
 
   .resize-h320-box[.resize-w240-h320[![](bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
   .resize-h320-box[.resize-w240-h320[![](bio/lopburny/photo.jpg)] .img-text[lopburny]]
   .resize-h320-box[.resize-w240-h320[![](bio/javaponny/photo.jpg)] .img-text[javaponny]]
 ]
-.footnote[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz Works は 開発チームの名称です。  ]
+.footnote[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
 
 ---
@@ -79,7 +79,7 @@ layout: false
 
 .footnote[
   ※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。  
-  　 また Riotz Works は 開発チームの名称です。  
+  　 また Riotz.works は 開発チームの名称です。  
 ]]
 
 
@@ -251,7 +251,7 @@ layout: false
 
 .footnote[
 ※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。  
-　 また Riotz Works は 開発チームの名称です。  
+　 また Riotz.works は 開発チームの名称です。  
 ]
 
 ---
