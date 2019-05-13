@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+- [Gridsome で作る JAMStack な サーバーレス Web Front](?2019-javascript-matsuri) .event-name[@初夏のJavaScript祭]
+
 - [サーバーレスなウェブフロントを実現する JAMStack](?2019-serverless-meetup-tokyo12) .event-name[@Serverless Meetup Tokyo #12]
 
 - [JAMStackで構築・運用するサーバーレスなウェブフロント](?2019-shiftup-jp_getshifter-vol3) .event-name[@Shiftup! JP_Getshifter Vol3]
