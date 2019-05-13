@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+- [サーバーレスなウェブフロントを実現する JAMStack](?2019-serverless-meetup-tokyo12) .event-name[@Serverless Meetup Tokyo #12]
+
 - [JAMStackで構築・運用するサーバーレスなウェブフロント](?2019-shiftup-jp_getshifter-vol3) .event-name[@Shiftup! JP_Getshifter Vol3]
 
 - [AWS x JAMStack で構築・運用するサーバーレスな Web Front](?2019-jaws-days) .event-name[@JAWS DAYS 2019]
