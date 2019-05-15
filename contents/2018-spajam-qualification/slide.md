@@ -5,7 +5,7 @@ class: cover, center, middle
 # 最高に楽しむ「ラップ､タップ､アップ🎶」
 .event-logo[![](assets/logo/spajam.png)]
 .english[
-  ~PSYCHEDELIC VIOLENCE CRIME OF VISUAL SHOCK~
+  ~PSYCHEDELIC VIOLENCE CRIME OF VISUAL SHOCK によせて~
 ]
 .footer[
   @SPAJAM 2018 東京D予選 ドワンゴ / 8 min  
