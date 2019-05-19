@@ -5,6 +5,8 @@ class: cover
 
 - [サーバーレスなウェブフロントを実現する JAMStack](?2019-serverless-meetup-tokyo12) .event-name[@Serverless Meetup Tokyo #12]
 
+- [パーソナルニュースの配信と交換によって爆速で仲良くなるアプリ「📰NEWʑ Link」](?2019-spajam-qualification) @SPAJAM 2019 東京A予選 gumi
+
 - [JAMStackで構築・運用するサーバーレスなウェブフロント](?2019-shiftup-jp_getshifter-vol3) .event-name[@Shiftup! JP_Getshifter Vol3]
 
 - [AWS x JAMStack で構築・運用するサーバーレスな Web Front](?2019-jaws-days) .event-name[@JAWS DAYS 2019]

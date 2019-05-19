@@ -1,0 +1,115 @@
+@charset 'utf-8';
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/grid.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/container.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/segment.min.css');
+
+.ui.grid>.column:not(.row) {
+  padding-top: 0;
+}
+.ui.grid>.column:not(.row)>p {
+  margin-top: 0;
+}
+
+.backcover img {
+  opacity: 1;
+}
+
+.cloudcraft {
+    position: relative;
+}
+.cloudcraft img {
+    width: 85%;
+    position: absolute;
+    right: -190px;
+    top: 45px;
+    transform: rotate(-15deg);
+    opacity: .4;
+    z-index: 0;
+}
+.cloudcraft .text {
+    position: absolute;
+    text-shadow: 1px 1px 2px #FFFAFA;
+    z-index: 1;
+}
+
+.marker {
+    background: linear-gradient(transparent 60%, #ffe5cc 0);
+    font-weight: 700;
+}
+
+.text .icon img {
+    max-width: 50px;
+    vertical-align: middle;
+    position: relative;
+    right: 0;
+    top: 0;
+    transform: rotate(-15deg);
+}
+
+.resize-w120 > img {
+    max-width: 120px;
+}
+.resize-w240 > img {
+    max-width: 240px;
+}
+.resize-h320 > img {
+    width: 240px;
+    height: 320px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.resize-h320a > img {
+    height: 440px;
+    border: double 1px #333;
+}
+
+.resize-qr > img {
+    width: 300px;
+}
+
+.resize-w100p > img {
+    width: 80%;
+}
+
+.text-large {
+    font-size: 32px;
+}
+.text-arrow-large {
+    font-size: 64px;
+}
+
+.resize-h320-box {
+  position: relative;
+}
+.img-text {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: #FFF;
+  font-size: 46px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px #FFFAFA;
+}
+
+.resize-h img {
+    max-height: 210px;
+}
+
+.small {
+    font-size: 75%;
+}
+
+.small p {
+    margin-top: 0;
+}
+
+.remark-slide-content h2 {
+    margin-bottom: 0;
+}
+
+.remark-slide-content h2 .english p {
+    margin-bottom: 0;
+    font-size: 28px;
+}
