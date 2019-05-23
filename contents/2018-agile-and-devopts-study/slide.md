@@ -405,3 +405,10 @@ class: bottom, center, backcover
   Slides are posted on .url[[`https://goo.gl/9tUuvS`](https://goo.gl/9tUuvS)]  
   Contact for slide is [@lulzneko](https://twitter.com/lulzneko) & [@lopburny](https://twitter.com/lopburny) by .fa[.fa-twitter[]]  
 ]
+
+
+---
+count: false
+class: bottom, center, eof
+## EOF
+![](assets/riotz.png)

@@ -98,3 +98,10 @@ class: center, backcover
 .footer[
   Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny) on .fa[.fa-twitter[]]  
 ]
+
+
+---
+count: false
+class: bottom, center, eof
+## EOF
+![](assets/riotz.png)

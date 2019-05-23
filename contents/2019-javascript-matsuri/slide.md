@@ -14,3 +14,10 @@ class: cover, center, middle
 class: center, middle
 ## Coming soon
 I am so looking forward to seeing you 😺
+
+
+---
+count: false
+class: bottom, center, eof
+## EOF
+![](assets/riotz.png)

@@ -634,3 +634,10 @@ class: bottom, center, backcover
   Slides are posted on .url[[`https://bit.ly/2ORPubz`](https://bit.ly/2ORPubz)]  
   Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny) on .fa[.fa-twitter[]]  
 ]
+
+
+---
+count: false
+class: bottom, center, eof
+## EOF
+![](assets/riotz.png)

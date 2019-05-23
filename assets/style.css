@@ -162,11 +162,32 @@ a:hover, a:active {
     margin: 0;
 }
 
+.eof {
+    background-image: none;
+    padding: 0;
+}
+
+.eof h2 {
+    position: absolute;
+    top: 290px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 56px;
+}
+
+.eof img {
+    opacity: .08;
+    width: 80%;
+}
+
 .cover .remark-slide-number,
 .preface .remark-slide-number,
 .backcover .remark-slide-number,
 .postface .remark-slide-number,
-.backup .remark-slide-number {
+.backup .remark-slide-number,
+.eof .remark-slide-number {
     display: none;
 }
 
