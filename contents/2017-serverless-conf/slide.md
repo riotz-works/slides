@@ -7,10 +7,7 @@ class: cover, center, middle
 .english[
   Development on AWS Lambda with TypeScript, which is promoted by Java developers
 ]
-.footer[
-  @Serverlessconf Tokyo 2017 / 40 min  
-  Slides are posted on .url[[`https://goo.gl/Mn5xab`](https://goo.gl/Mn5xab)]  
-]
+.footer[@Serverlessconf Tokyo 2017 / 40 min]
 
 
 ---
@@ -32,8 +29,6 @@ class: preface, agenda
 5. まとめ .english[
   Wrap-up
 ]
-
-.footer[Slides are posted on .url[[`https://goo.gl/Mn5xab`](https://goo.gl/Mn5xab)]]
 
 
 
@@ -470,10 +465,7 @@ class: bottom, center, backcover
 ]
 
 ![](assets/riotz.png)
-.footer[
-  Slides are posted on .url[[`https://goo.gl/Mn5xab`](https://goo.gl/Mn5xab)]  
-  Contact for slide is [@lulzneko](https://twitter.com/lulzneko) & [@lopburny](https://twitter.com/lopburny) by .fa[.fa-twitter[]]  
-]
+.footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) & [@lopburny](https://twitter.com/lopburny) by .fa[.fa-twitter[]]]
 
 
 ---

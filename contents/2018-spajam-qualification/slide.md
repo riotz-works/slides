@@ -7,10 +7,7 @@ class: cover, center, middle
 .english[
   ~PSYCHEDELIC VIOLENCE CRIME OF VISUAL SHOCK によせて~
 ]
-.footer[
-  @SPAJAM 2018 東京D予選 ドワンゴ / 8 min  
-  Slides are posted on .url[[`https://bit.ly/2K2MfzT`](https://bit.ly/2K2MfzT)]  
-]
+.footer[@SPAJAM 2018 東京D予選 ドワンゴ / 8 min]
 
 
 ---
@@ -90,10 +87,7 @@ class: center, backcover
 .resize-h320-box[.resize-h320[![](bio/javaponny/photo.jpg)] .img-text[javaponny]]  
 .small[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
-.footer[
-  Slides are posted on .url[[`https://bit.ly/2K2MfzT`](https://bit.ly/2K2MfzT)]  
-  Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny), [@javaponny](https://twitter.com/javaponny) on .fa[.fa-twitter[]]  
-]
+.footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny), [@javaponny](https://twitter.com/javaponny) on .fa[.fa-twitter[]]]
 
 
 ---

@@ -7,7 +7,7 @@ class: cover, center, middle
 .english[
   Serverless Web Front developed and operated by JAMStack
 ]
-.footer[@Shiftup! JP_Getshifter Vol3 / 20 min<br> Slides are posted on .url[[`https://bit.ly/2HXR23T`](https://bit.ly/2HXR23T)]]
+.footer[@Shiftup! JP_Getshifter Vol3 / 20 min]
 
 
 ---
@@ -26,7 +26,6 @@ class: preface, agenda
 4. まとめ .english[
   Wrap-up
 ]
-.footer[Slides are posted on .url[[`https://bit.ly/2HXR23T`](https://bit.ly/2HXR23T)]]
 
 
 
@@ -388,10 +387,7 @@ class: bottom, center, backcover
 ]
 
 ![](assets/riotz.png)
-.footer[
-  Slides are posted on .url[[`https://bit.ly/2HXR23T`](https://bit.ly/2HXR23T)]  
-  Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]  
-]
+.footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
 ---

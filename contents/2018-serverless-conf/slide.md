@@ -7,7 +7,7 @@ class: cover, center, middle
 .english[
   Serverless tricks which real-time video rap battle application was built in a short time
 ]
-.footer[@Serverlessconf Tokyo 2018 / 40 min<br> Slides are posted on .url[[`https://bit.ly/2Dx2frQ`](https://bit.ly/2Dx2frQ)]<br> Demo application is here .url[[`https://bit.ly/2DFL9Ie`](https://bit.ly/2DFL9Ie)]]
+.footer[@Serverlessconf Tokyo 2018 / 40 min<br /> Demo application is here .url[[`https://bit.ly/2DFL9Ie`](https://bit.ly/2DFL9Ie)]]
 
 
 ---
@@ -31,7 +31,7 @@ class: preface, agenda
   Wrap-up
 ]
 ]
-.footer[Slides are posted on .url[[`https://bit.ly/2Dx2frQ`](https://bit.ly/2Dx2frQ)]<br> Demo application is here .url[[`https://bit.ly/2DFL9Ie`](https://bit.ly/2DFL9Ie)]]
+.footer[Demo application is here .url[[`https://bit.ly/2DFL9Ie`](https://bit.ly/2DFL9Ie)]]
 
 
 
@@ -613,12 +613,8 @@ class: bottom, center, backcover
 ]
 
 ![](assets/riotz.png)
-.footer[
-  Slides are posted on .url[[`https://bit.ly/2Dx2frQ`](https://bit.ly/2Dx2frQ)]  
-  Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny), [@javaponny](https://twitter.com/javaponny) on .fa[.fa-twitter[]]  
+.footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny), [@javaponny](https://twitter.com/javaponny) on .fa[.fa-twitter[]]]
 ]
-]
-
 
 ---
 count: false

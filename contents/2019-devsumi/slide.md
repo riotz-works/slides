@@ -6,7 +6,7 @@ class: cover, center, middle
 .english[
   Application development with serverless is most fun !
 ]
-.footer[@Developers Summit 2019 / 45 min<br> Slides are posted on .url[[`https://bit.ly/2ShMlZ0`](https://bit.ly/2ShMlZ0)]]
+.footer[@Developers Summit 2019 / 45 min]
 
 
 ---
@@ -25,7 +25,6 @@ class: preface, agenda
 4. まとめ .english[
   Wrap-up
 ]
-.footer[Slides are posted on .url[[`https://bit.ly/2ShMlZ0`](https://bit.ly/2ShMlZ0)]]
 
 
 
@@ -493,10 +492,7 @@ class: bottom, center, backcover
 ]
 
 ![](assets/riotz.png)
-.footer[
-  Slides are posted on .url[[`https://bit.ly/2ShMlZ0`](https://bit.ly/2ShMlZ0)]  
-  Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]  
-]
+.footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
 ---

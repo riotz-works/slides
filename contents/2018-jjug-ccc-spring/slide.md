@@ -7,10 +7,7 @@ class: cover, center, middle
 .english[
   Serverless development to accelerate by switching from Java to TypeScript
 ]
-.footer[
-  @JJUG CCC 2018 Spring / 45 min  
-  Slides are posted on .url[[`https://bit.ly/2KRgCFS`](https://bit.ly/2KRgCFS)]  
-]
+.footer[@JJUG CCC 2018 Spring / 45 min]
 
 
 ---
@@ -22,8 +19,6 @@ class: preface, agenda
 3. Java と TypeScript の 親和性
 4. AWS Lambda 実行環境 を 移行した結果
 5. まとめ
-
-.footer[Slides are posted on .url[[`https://bit.ly/2KRgCFS`](https://bit.ly/2KRgCFS)]]
 
 
 
@@ -478,10 +473,7 @@ class: bottom, center, backcover
 ]
 
 ![](assets/riotz.png)
-.footer[
-  Slides are posted on .url[[`https://bit.ly/2KRgCFS`](https://bit.ly/2KRgCFS)]  
-  Contact for slide is [@lulzneko](https://twitter.com/lulzneko) by .fa[.fa-twitter[]]  
-]
+.footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) by .fa[.fa-twitter[]]]
 
 
 ---

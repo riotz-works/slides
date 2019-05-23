@@ -8,7 +8,7 @@ class: cover, center, middle
   A Mobile PWA of real-time video streaming for freestyle rap battle app, **powered by Vue.js/Nuxt.js & TypeScript**
 ]
 
-.footer[@東京Node学園祭2018 / 30 min<br> Slides are posted on .url[[`https://bit.ly/2ORPubz`](https://bit.ly/2ORPubz)]<br> Demo application is here .url[[`https://bit.ly/2Fed4Qb`](https://bit.ly/2Fed4Qb)]]
+.footer[@東京Node学園祭2018 / 30 min<br/> Demo application is here .url[[`https://bit.ly/2Fed4Qb`](https://bit.ly/2Fed4Qb)]<br/>]
 
 
 ---
@@ -30,7 +30,7 @@ class: preface, agenda
 5. まとめ .english[
   Wrap-up
 ]
-.footer[Slides are posted on .url[[`https://bit.ly/2ORPubz`](https://bit.ly/2ORPubz)]<br> Demo application is here .url[[`https://bit.ly/2Fed4Qb`](https://bit.ly/2Fed4Qb)]]
+.footer[Demo application is here .url[[`https://bit.ly/2Fed4Qb`](https://bit.ly/2Fed4Qb)]]
 
 
 
@@ -630,10 +630,7 @@ class: bottom, center, backcover
 ]
 
 ![](assets/riotz.png)
-.footer[
-  Slides are posted on .url[[`https://bit.ly/2ORPubz`](https://bit.ly/2ORPubz)]  
-  Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny) on .fa[.fa-twitter[]]  
-]
+.footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny) on .fa[.fa-twitter[]]]
 
 
 ---

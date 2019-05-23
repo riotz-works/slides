@@ -6,7 +6,7 @@ class: cover, center, middle
 .english[
   JAMStack Serverless Web Front developed by Gridsome
 ]
-.footer[@初夏のJavaScript祭 in メンバーズキャリア / 20 min<br> Slides are posted on .url[[`https://bit.ly/2PZTPM1`](https://bit.ly/2PZTPM1)]]
+.footer[@初夏のJavaScript祭 in メンバーズキャリア / 20 min]
 
 
 

@@ -7,7 +7,7 @@ class: cover, center, middle
 .english[
   Serverless Web Front developed and operated by AWS & JAMStack
 ]
-.footer[@JAWS DAYS 2019 / 20 min<br> Slides are posted on .url[[`https://bit.ly/2HSNQbo`](https://bit.ly/2HSNQbo)]]
+.footer[@JAWS DAYS 2019 / 20 min]
 
 
 ---
@@ -26,7 +26,6 @@ class: preface, agenda
 4. まとめ .english[
   Wrap-up
 ]
-.footer[Slides are posted on .url[[`https://bit.ly/2HSNQbo`](https://bit.ly/2HSNQbo)]]
 
 
 
@@ -388,10 +387,7 @@ class: bottom, center, backcover
 ]
 
 ![](assets/riotz.png)
-.footer[
-  Slides are posted on .url[[`https://bit.ly/2HSNQbo`](https://bit.ly/2HSNQbo)]  
-  Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]  
-]
+.footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
 ---

@@ -9,11 +9,7 @@ class: cover, center, middle
   Agile and DevOps practices in backend development team of  
   systems to automatically personalize smart devices and cloud services  
 ]
-.footer[
-  @Agile & DevOps Study 2018.02 [CLOSED] / 25 min  
-  Slides are posted on .url[[`https://goo.gl/9tUuvS`](https://goo.gl/9tUuvS)]  
-  __\* Unlike slides at presentation, it is generalized material for publication__  
-]
+.footer[@Agile & DevOps Study 2018.02 [CLOSED] / 25 min<br /> __\* Unlike slides at presentation, it is generalized material for publication__]
 
 
 ---
@@ -25,10 +21,7 @@ class: preface, agenda
 3. 変更の大波を乗り越えた Agile & DevOps プラクティス
 4. まとめ
 
-.footer[
-  Slides are posted on .url[[`https://goo.gl/9tUuvS`](https://goo.gl/9tUuvS)]  
-  __\* Unlike slides at presentation, it is generalized material for publication__  
-]
+.footer[__\* Unlike slides at presentation, it is generalized material for publication__]
 
 
 
@@ -401,10 +394,7 @@ class: bottom, center, backcover
 ]
 
 ![](assets/riotz.png)
-.footer[
-  Slides are posted on .url[[`https://goo.gl/9tUuvS`](https://goo.gl/9tUuvS)]  
-  Contact for slide is [@lulzneko](https://twitter.com/lulzneko) & [@lopburny](https://twitter.com/lopburny) by .fa[.fa-twitter[]]  
-]
+.footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) & [@lopburny](https://twitter.com/lopburny) by .fa[.fa-twitter[]]]
 
 
 ---

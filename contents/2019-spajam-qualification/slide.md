@@ -4,9 +4,7 @@ class: cover, center, middle
 # パーソナルニュースの配信と交換によって
 # 爆速で仲良くなるアプリ「.marker[📰NEWʑ Link]」
 .event-logo[![](assets/logo/spajam.png)]
-.footer[
-  @SPAJAM 2019 東京A予選 gumi / 8 min
-]
+.footer[@SPAJAM 2019 東京A予選 gumi / 8 min]
 
 
 ---
@@ -96,7 +94,7 @@ class: center, backcover
 .small[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
 .footer[
-  Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny) on .fa[.fa-twitter[]]  
+  Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny) on .fa[.fa-twitter[]]
 ]
 
 
