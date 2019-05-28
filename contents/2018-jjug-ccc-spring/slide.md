@@ -3,11 +3,11 @@ count: false
 class: cover, center, middle
 # Java から TypeScript へ 切り替えて
 # 加速するサーバーレス開発
-.event-logo[![](assets/logo/jjug.png)]
+.event-logo[[![](assets/logo/jjug.png)](http://www.java-users.jp/ccc2018spring/)]
 .english[
   Serverless development to accelerate by switching from Java to TypeScript
 ]
-.footer[@JJUG CCC 2018 Spring / 45 min]
+.footer[[@JJUG CCC 2018 Spring](http://www.java-users.jp/ccc2018spring/) / 45 min]
 
 
 ---

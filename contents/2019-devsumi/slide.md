@@ -2,11 +2,11 @@ name: サーバーレスで最高に楽しめるアプリ開発
 count: false
 class: cover, center, middle
 # サーバーレスで最高に楽しめるアプリ開発
-.event-logo[![](assets/logo/devsumi.png)]
+.event-logo[[![](assets/logo/devsumi.png)](https://event.shoeisha.jp/devsumi/20190214/)]
 .english[
   Application development with serverless is most fun !
 ]
-.footer[@Developers Summit 2019 / 45 min]
+.footer[[@Developers Summit 2019](https://event.shoeisha.jp/devsumi/20190214/) / 45 min]
 
 
 ---

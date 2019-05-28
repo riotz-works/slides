@@ -3,11 +3,11 @@ count: false
 class: cover, center, middle
 # リアルタイム動画ラップ バトル アプリを
 # 短時間で作り上げた完全サーバーレスな秘技
-.event-logo[![](assets/logo/serverlessconf.png)]
+.event-logo[[![](assets/logo/serverlessconf.png)](http://2018.serverlessconf.tokyo/)]
 .english[
   Serverless tricks which real-time video rap battle application was built in a short time
 ]
-.footer[@Serverlessconf Tokyo 2018 / 40 min<br /> Demo application is here .url[[`https://bit.ly/2DFL9Ie`](https://bit.ly/2DFL9Ie)]]
+.footer[[@Serverlessconf Tokyo 2018](http://2018.serverlessconf.tokyo/) / 40 min]
 
 
 ---
@@ -31,7 +31,6 @@ class: preface, agenda
   Wrap-up
 ]
 ]
-.footer[Demo application is here .url[[`https://bit.ly/2DFL9Ie`](https://bit.ly/2DFL9Ie)]]
 
 
 

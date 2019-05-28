@@ -3,11 +3,11 @@ count: false
 class: cover, center, middle
 # Vue.js/Nuxt.js で 実現できた
 # PWAなリアルタイム動画ラップバトルアプリ
-.event-logo[![](assets/logo/vuefes.png)]
+.event-logo[[![](assets/logo/vuefes.png)](https://vuejs-meetup.connpass.com/event/97557/)]
 .english[
   A Mobile PWA of real-time video streaming for freestyle rap battle app, **powered by Vue.js/Nuxt.js**
 ]
-.footer[@Vue Fes Japan 2018 Reject Conference / 30 min<br /> Demo application is here .url[[`https://bit.ly/2Fed4Qb`](https://bit.ly/2Fed4Qb)]]
+.footer[[@Vue Fes Japan 2018 Reject Conference](https://vuejs-meetup.connpass.com/event/97557/) / 30 min]
 
 
 ---
@@ -26,7 +26,6 @@ class: preface, agenda
 4. まとめ .english[
   Wrap-up
 ]
-.footer[Demo application is here .url[[`https://bit.ly/2Fed4Qb`](https://bit.ly/2Fed4Qb)]]
 
 
 

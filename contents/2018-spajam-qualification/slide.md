@@ -3,11 +3,11 @@ count: false
 class: cover, center, middle
 # リアルタイムの競演と参加型観戦で音楽を
 # 最高に楽しむ「ラップ､タップ､アップ🎶」
-.event-logo[![](assets/logo/spajam.png)]
+.event-logo[[![](assets/logo/spajam.png)](https://spajam.jp/2018/entry/tokyo-d/)]
 .english[
   ~PSYCHEDELIC VIOLENCE CRIME OF VISUAL SHOCK によせて~
 ]
-.footer[@SPAJAM 2018 東京D予選 ドワンゴ / 8 min]
+.footer[[@SPAJAM 2018 東京D予選 ドワンゴ](https://spajam.jp/2018/entry/tokyo-d/) / 8 min]
 
 
 ---

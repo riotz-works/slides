@@ -3,12 +3,12 @@ count: false
 class: cover, center, middle
 # Vue.js/Nuxt.js と TypeScript で 実現する
 # PWAなリアルタイム動画ラップバトルアプリ
-.event-logo[![](assets/logo/nodefest.png)]
+.event-logo[[![](assets/logo/nodefest.png)](https://nodefest.jp/2018/)]
 .english[
   A Mobile PWA of real-time video streaming for freestyle rap battle app, **powered by Vue.js/Nuxt.js & TypeScript**
 ]
 
-.footer[@東京Node学園祭2018 / 30 min<br/> Demo application is here .url[[`https://bit.ly/2Fed4Qb`](https://bit.ly/2Fed4Qb)]<br/>]
+.footer[[@東京Node学園祭2018](https://nodefest.jp/2018/) / 30 min]
 
 
 ---
@@ -30,7 +30,6 @@ class: preface, agenda
 5. まとめ .english[
   Wrap-up
 ]
-.footer[Demo application is here .url[[`https://bit.ly/2Fed4Qb`](https://bit.ly/2Fed4Qb)]]
 
 
 

@@ -3,11 +3,11 @@ count: false
 class: cover, center, middle
 # JAMStackで構築・運用する
 # サーバーレスなウェブフロント
-.event-logo[![](assets/logo/shifter-jp.png)]
+.event-logo[[![](assets/logo/shifter-jp.png)](https://eventregist.com/e/xiza3ieCWYFc)]
 .english[
   Serverless Web Front developed and operated by JAMStack
 ]
-.footer[@Shiftup! JP_Getshifter Vol3 / 20 min]
+.footer[[@Shiftup! JP_Getshifter Vol3](https://eventregist.com/e/xiza3ieCWYFc) / 20 min]
 
 
 ---

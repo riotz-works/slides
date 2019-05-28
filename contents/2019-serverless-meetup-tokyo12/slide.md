@@ -2,11 +2,11 @@ name: サーバーレスなウェブフロントを実現する JAMStack
 count: false
 class: cover, center, middle
 # サーバーレスなウェブフロントを実現する JAMStack
-.event-logo[![](assets/logo/serverlesstokyo12.jpg)]
+.event-logo[[![](assets/logo/serverlesstokyo12.jpg)](https://serverless.connpass.com/event/130509/)]
 .english[
   JAMStack, an architecture to realizes serverless web front
 ]
-.footer[@Serverless Meetup Tokyo #12 / 20 min]
+.footer[[@Serverless Meetup Tokyo #12](https://serverless.connpass.com/event/130509/) / 20 min]
 
 
 ---

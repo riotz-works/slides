@@ -3,8 +3,8 @@ count: false
 class: cover, center, middle
 # パーソナルニュースの配信と交換によって
 # 爆速で仲良くなるアプリ「.marker[📰NEWʑ Link]」
-.event-logo[![](assets/logo/spajam.png)]
-.footer[@SPAJAM 2019 東京A予選 gumi / 8 min]
+.event-logo[[![](assets/logo/spajam.png)](https://spajam.jp/2019/entry/tokyo-a/)]
+.footer[[@SPAJAM 2019 東京A予選 gumi](https://spajam.jp/2019/entry/tokyo-a/) / 8 min]
 
 
 ---
