@@ -162,6 +162,10 @@ a:hover, a:active {
     margin: 0;
 }
 
+.appendix {
+    font-size: 24px;
+}
+
 .eof {
     background-image: none;
     padding: 0;

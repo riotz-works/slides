@@ -98,6 +98,17 @@ class: center, backcover
 ]
 
 
+
+---
+class: appendix
+### Appendix
+**本イベント関連記事**
+- [SPAJAM 2019 東京A予選 - ハッカソン戦記](https://riotz.works/articles/2019/05/20/spajam-2019-tokyo-a-pre-hackathon-chronicle/)
+
+**テーマ関連記事**
+- [CTO vs Hackers ハッカソン戦記](https://riotz.works/articles/2019/03/10/cto-vs-hackers-hackathon-chronicle/)
+
+
 ---
 count: false
 class: bottom, center, eof

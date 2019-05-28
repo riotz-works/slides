@@ -390,6 +390,21 @@ class: bottom, center, backcover
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
+
+---
+class: appendix
+### Appendix
+**本イベント関連記事**
+- [「JAMStmade なサーバーレス・ウェブフロント」について発表をしました](https://riotz.works/articles/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
+- [Shiftup! JP_Getshifter Vol3！ 参加レポート](https://riotz.works/articles/2019/04/03/take-seminar-on-shiftup-vol3/)
+- [Shiftup! JP_Getshifter Vol3！ 振り返り、Shifterのヘッドレス CMS 化に思いを馳せる](https://riotz.works/articles/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3/)
+
+**テーマ関連記事**
+- [JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
+- [Riots.works での JAMStack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
+
+
+
 ---
 count: false
 class: bottom, center, eof

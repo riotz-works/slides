@@ -350,6 +350,18 @@ class: bottom, center, backcover
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
+
+---
+class: appendix
+### Appendix
+**本イベント関連記事**
+- [Serverless Meetup Tokyo 12 にて「サーバーレスなウェブフロントを実現する JAMStack」について発表をしました](https://riotz.works/articles/2019/05/27/made-presentation-about-jamstack-at-serverless-meetup-tokyo-12/)
+
+**テーマ関連記事**
+- [JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
+- [Riots.works での JAMStack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
+
+
 ---
 count: false
 class: bottom, center, eof

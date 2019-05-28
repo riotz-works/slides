@@ -495,6 +495,22 @@ class: bottom, center, backcover
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
+
+---
+class: appendix
+### Appendix
+**本イベント関連記事**
+- [デブサミ 2019 にて「サーバーレス開発の楽しさ」について発表をしました](https://riotz.works/articles/2019/02/27/made-presentation-about-enjoyment-of-serverless-at-devsumi-2019-winter/)
+- [デブサミ 2019 Ask the Speaker にて頂いた QA まとめ](https://riotz.works/articles/2019/02/18/summary-of-qa-at-ask-the-speaker-of-devsumi-2019-winter/)
+- [発表者は、その日何をしていたのか - 発表の舞台裏 DevSumi 2019 編](https://riotz.works/articles/2019/02/15/backstage-of-presentation-at-devsumi-2019-winter/)
+
+**テーマ関連記事**
+- [CSV ファイルのバッチ連携も AWS Lambda でサーバーレス](https://riotz.works/articles/2017/12/07/csv-batch-can-also-realized-with-serverless-impl-using-lambda/)
+- [API Gateway の WebSocket でチャットを実装 w/Serverless Framework](https://riotz.works/articles/2018/12/22/implement-chat-using-websocket-of-api-gateway-with-serverless-framework/)
+- [Serverless Framework と TypeScript でサーバレス開発事始め](https://riotz.works/articles/2018/02/01/beginning-serverless-dev-with-serverless-framework-and-typescript/)
+- [Serverless Framework と TypeScript で Hello ＆ Version の Web API を実装](https://riotz.works/articles/2018/02/03/develop-hello-and-version-web-api-with-serverless-framework-and-typescript/)
+
+
 ---
 count: false
 class: bottom, center, eof

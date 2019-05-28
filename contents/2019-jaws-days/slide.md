@@ -390,6 +390,20 @@ class: bottom, center, backcover
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
+
+---
+class: appendix
+### Appendix
+**本イベント関連記事**
+- [JAWS DAYS 2019 にて「AWS x JAMStack なサーバーレス Web Front」について発表をしました](https://riotz.works/articles/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/)
+- [JAWS DAYS 2019 にて頂いた QA まとめ](https://riotz.works/articles/2019/02/24/summary-of-qa-at-jawsdays2019/)
+- [発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編](https://riotz.works/articles/2019/02/23/backstage-of-presentation-at-jawsdays2019/)
+
+**テーマ関連記事**
+- [JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
+- [Riots.works での JAMStack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
+
+
 ---
 count: false
 class: bottom, center, eof
