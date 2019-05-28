@@ -57,6 +57,13 @@
 
         slideshow.on('showSlide', (slide) => {});
         slideshow.on('hideSlide', (slide) => {});
+
+        if(window !== window.parent) {
+            let link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = 'assets/iframe.css';
+            document.querySelector('head').appendChild(link);
+        }
     </script>
 </body>
 </html>
