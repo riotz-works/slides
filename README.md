@@ -9,6 +9,8 @@ class: cover
 
 - [JAMStackで構築・運用するサーバーレスなウェブフロント](?2019-shiftup-jp_getshifter-vol3) .event-name[@Shiftup! JP_Getshifter Vol3]
 
+- [「ミツカルヘアサロン💇」 〜個人が提案する時代に向けたアプリ～](?2019-cto-vs-hackers-hackathon) .event-name[@CTO vs Hackers ハッカソン]
+
 - [AWS x JAMStack で構築・運用するサーバーレスな Web Front](?2019-jaws-days) .event-name[@JAWS DAYS 2019]
 
 - [サーバーレスで最高に楽しめるアプリ開発](?2019-devsumi) .event-name[@Developers Summit 2019]

@@ -1,0 +1,337 @@
+@charset 'utf-8';
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/grid.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/container.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/segment.min.css');
+
+.remark-slide-content {
+    background-color: #FAFAFF;
+    background-image: url(images/unit.png);
+    background-size: 360px;
+    background-position: top 600px left 8px;
+    font-size: 24px;
+    padding: 1em 1em 1em 3em;
+}
+
+.remark-slide-content h3 {
+    border-bottom: inset 2px rgb(0, 0, 170);
+    line-height: .9;
+    padding-left: 24px;
+    width: 95%;
+}
+
+.no-logo {
+    background-image: none;
+}
+
+.marker {
+    background-repeat: repeat-x;
+    background-size: 0.6em 0.2em,1.6em 0.2em,3.4em 0.2em,3.6em 0.2em;
+    background-position: right bottom;
+
+    background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(115,89,246,0)), color-stop(0.1, rgba(115,89,246,0.02)), color-stop(0.5, rgba(115,89,246,1)), color-stop(0.98, rgba(115,89,246,0)), to(rgba(115,89,246,0)) );
+    background-image:
+            -webkit-radial-gradient(center center,0.2em 0.1em,rgba(115,89,246,1) 0,rgba(115,89,246,0) 0.1em,rgba(115,89,246,0) 0.2em),
+            -webkit-radial-gradient(center center,0.4em 0.1em,rgba(115,89,246,1) 0,rgba(115,89,246,0) 0.3em,rgba(115,89,246,0) 0.4em),
+            -webkit-radial-gradient(center center,0.7em 0.1em,rgba(115,89,246,1) 0,rgba(115,89,246,0) 0.6em,rgba(115,89,246,0) 0.7em),
+            -webkit-radial-gradient(center center,7.1em 0.1em,rgba(115,89,246,1) 0,rgba(115,89,246,0) 7em,rgba(115,89,246,0) 7.1em);
+    background-image:
+            radial-gradient(0.2em 0.1em at center center,rgba(115,89,246,1),rgba(115,89,246,0)),
+            radial-gradient(0.4em 0.1em at center center,rgba(115,89,246,1),rgba(115,89,246,0)),
+            radial-gradient(0.7em 0.1em at center center,rgba(115,89,246,1),rgba(115,89,246,0)),
+            radial-gradient(7.1em 0.1em at center center,rgba(115,89,246,1),rgba(115,89,246,0));
+}
+
+.backcover {
+    background-image: none;
+    padding: 0;
+}
+
+.eof {
+    background-image: none;
+    padding: 0;
+}
+
+
+
+.subtitle {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cover .english p {
+    font-size: 24px;
+    margin-left: 0;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.cloudcraft {
+    position: relative;
+}
+.cloudcraft img {
+    width: 85%;
+    position: absolute;
+    right: -190px;
+    top: 10px;
+    transform: rotate(-15deg);
+}
+.cloudcraft .text {
+    position: absolute;
+}
+
+.text .icon img {
+    max-width: 50px;
+    vertical-align: middle;
+    position: relative;
+    right: 0;
+    top: 0;
+    transform: rotate(-15deg);
+}
+
+.resize-w120 > img {
+    max-width: 120px;
+}
+
+.resize-w180 > img {
+    max-width: 180px;
+}
+
+.resize-w240 > img {
+    max-width: 240px;
+}
+
+.resize-w280 > img {
+    max-width: 280px;
+}
+
+.resize-w420 > img {
+    max-width: 420px;
+}
+
+.resize-w640 > img {
+    max-width: 640px;
+}
+
+.resize-w240-fit > img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.resize-w240-h320 > img {
+    width: 240px;
+    height: 320px;
+    object-fit: cover;
+    object-position: right;
+}
+
+.resize-h320-box {
+    position: relative;
+}
+
+.resize-hx > img {
+    height: 520px;
+}
+
+.resize-h620 > img {
+    height: 620px;
+}
+
+.img-text {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #FFF;
+    font-size: 46px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #FFFAFA;
+}
+
+.resize-h img {
+    max-height: 210px;
+}
+
+.small {
+    font-size: 75%;
+}
+
+.small p {
+    margin-top: 0;
+}
+
+.jaian > img {
+    width: 500px;
+    border: #333 solid;
+}
+
+.spajam-slide > img {
+    position: absolute;
+    left: 4px;
+    max-width: 580px;
+    bottom: 4px;
+    border: #333 solid;
+    z-index: 10;
+}
+
+.spajam-photo-2 > img {
+    position: absolute;
+    top: 8px;
+    right: -44px;
+    transform: rotate(7deg);
+    border: #333 solid;
+    width: 560px;
+}
+.spajam-photo-2-pin {
+    width: 20px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    z-index: 100;
+}
+
+.spajam-photo-3 > img {
+    position: absolute;
+    bottom: -10px;
+    right: -24px;
+    transform: rotate(-10deg);
+    border: #333 solid;
+    width: 640px;
+    z-index: 20;
+}
+.spajam-photo-3-pin {
+    width: 20px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    bottom: 220px;
+    right: 210px;
+    z-index: 100;
+}
+
+.spajam-photo-4 > img {
+    position: absolute;
+    bottom: 140px;
+    right: 400px;
+    transform: rotate(-5deg);
+    border: #333 solid;
+    width: 320px;
+    z-index: 10;
+}
+.spajam-photo-4-pin {
+    width: 20px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    bottom: 380px;
+    right: 510px;
+    z-index: 100;
+}
+
+.vote-photo > img {
+    position: absolute;
+    bottom: 0px;
+    right: -10px;
+    transform: rotate(-5deg);
+    border: #333 solid;
+    width: 300px;
+}
+
+.right-image-full img {
+    position: absolute;
+    height:614px;
+}
+
+.right-image-full2 img {
+    position: absolute;
+    width: 1180px;
+    bottom: 10px;
+}
+
+.img-001 > img {
+    position: absolute;
+    bottom: 10px;
+    left: 300px;
+    width: 380px;
+}
+
+.img-002 > img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 450px;
+}
+
+.img-md > img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 510px;
+}
+
+
+.wrapup-note {
+    margin-top: 100px;
+}
+
+.text-large-48 {
+    font-size: 48px;
+}
+
+.text-large-36 {
+    font-size: 36px;
+}
+
+.text-large-32 {
+    font-size: 32px;
+}
+
+.video {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 429px;
+    height: 572px;
+    z-index: 10;
+}
+
+.video .frame-container {
+    border-radius: 6px;
+    margin: 2px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: relative;
+}
+
+.video .frame-container iframe {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 421px;
+    height: 564px;
+    z-index: 80;
+}
+
+.arrow-left-center {
+    margin-left: 300px;
+}
+
+.arch img {
+    width: 58%;
+}
+
+.img-full img {
+    max-width: 86%;
+}
+
+.original > img {
+    width: 43%;
+    border: solid 1px rgb(0, 0, 170);
+}
