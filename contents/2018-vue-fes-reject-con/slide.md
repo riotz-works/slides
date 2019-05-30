@@ -3,7 +3,7 @@ count: false
 class: cover, center, middle
 # Vue.js/Nuxt.js で 実現できた
 # PWAなリアルタイム動画ラップバトルアプリ
-.event-logo[[![](assets/logo/vuefes.png)](https://vuejs-meetup.connpass.com/event/97557/)]
+.event-logo[[![](../assets/logo/vuefes.png)](https://vuejs-meetup.connpass.com/event/97557/)]
 .english[
   A Mobile PWA of real-time video streaming for freestyle rap battle app, **powered by Vue.js/Nuxt.js**
 ]
@@ -38,9 +38,9 @@ layout: false
 .center[
   .text-large-48[.marker[Riotz.works]], a cheerful engineering team !!
 
-  .resize-h320-box[.resize-w240-h320[![](bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
-  .resize-h320-box[.resize-w240-h320[![](bio/lopburny/photo.jpg)] .img-text[lopburny]]
-  .resize-h320-box[.resize-w240-h320[![](bio/javaponny/photo.jpg)] .img-text[javaponny]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/lopburny/photo.jpg)] .img-text[lopburny]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/javaponny/photo.jpg)] .img-text[javaponny]]
 ]
 .footnote[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
@@ -65,7 +65,7 @@ layout: false
   ウェブサービスやアプリの開発だけでなく Raspberry Pi などの電子工作や Slack などのチャットボットなどと、いろいろと手を出す。
 ]
 .four.wide.column[
-  .resize-w240[![](bio/lulzneko/photo.jpg)]  
+  .resize-w240[![](../bio/lulzneko/photo.jpg)]  
   .social[.fa[.fa-github[]] [@lulzneko](https://github.com/lulzneko)]  
   .social[.fa[.fa-twitter[]] [@lulzneko](https://twitter.com/lulzneko)]  
 ]
@@ -108,9 +108,9 @@ layout: false
 - Riotz は ハッカソン自体初参加、  
   チーム５名編成のところを ３人と少人数参戦
 
-.spajam-slide[![](contents/2018-serverless-conf/images/100.png)]
-.spajam-photo-2-pin[![](contents/2018-serverless-conf/images/pin.png)] .spajam-photo-2[![](contents/2018-serverless-conf/images/102.jpg)]
-.spajam-photo-3-pin[![](contents/2018-serverless-conf/images/pin.png)] .spajam-photo-3[![](contents/2018-serverless-conf/images/103.jpg)]
+.spajam-slide[![](../contents/2018-serverless-conf/images/100.png)]
+.spajam-photo-2-pin[![](../contents/2018-serverless-conf/images/pin.png)] .spajam-photo-2[![](../contents/2018-serverless-conf/images/102.jpg)]
+.spajam-photo-3-pin[![](../contents/2018-serverless-conf/images/pin.png)] .spajam-photo-3[![](../contents/2018-serverless-conf/images/103.jpg)]
 
 
 
@@ -131,12 +131,12 @@ layout: false
 - Vue CLI 3.0 RC を使うも、Vue.js の 開発経験が少なく苦戦  
 
 - Nuxt.js を 発見、秒速で使いこなす！
-.spajam-photo-4-pin[![](contents/2018-serverless-conf/images/pin.png)] .spajam-photo-4[![](contents/2018-serverless-conf/images/104.jpg)]
+.spajam-photo-4-pin[![](../contents/2018-serverless-conf/images/pin.png)] .spajam-photo-4[![](../contents/2018-serverless-conf/images/104.jpg)]
 
 
 ---
 ### 「ラップ、タップ、アップ 🎶」の アーキテクチャ
-.center[.resize-hx[![](contents/2018-serverless-conf/images/110.png)]]
+.center[.resize-hx[![](../contents/2018-serverless-conf/images/110.png)]]
 
 ---
 ### 「ラップ、タップ、アップ 🎶」の アーキテクチャ
@@ -174,7 +174,7 @@ layout: false
   仕事もプライベートも、一所懸命ロックンロールしたいと思っている、ウェブエンジニア。
 ]
 .four.wide.column[
-  .resize-w240[![](bio/lopburny/photo.jpg)]  
+  .resize-w240[![](../bio/lopburny/photo.jpg)]  
   .social[.fa[.fa-github[]] [@lopburny](https://github.com/lopburny)]  
   .social[.fa[.fa-twitter[]] [@lopburny](https://twitter.com/lopburny)]  
 ]
@@ -196,7 +196,7 @@ layout: false
 - その場で QR コードを読み取るか、リンクをコピーして共有することができる
 ] <!-- eight.wide.column -->
 .seven.wide.column[
-.center[.resize-w280[![バトル募集](contents/2018-vue-fes-reject-con/images/screenshot_host_room.jpg)]]
+.center[.resize-w280[![バトル募集](../contents/2018-vue-fes-reject-con/images/screenshot_host_room.jpg)]]
 ] <!-- .seven.wide.column -->
 ] <!-- .ui.grid -->
 
@@ -209,7 +209,7 @@ layout: false
 ニックネームを入力して入場する
 ] <!-- eight.wide.column -->
 .seven.wide.column[
-.center[.resize-w280[![バトル募集](contents/2018-vue-fes-reject-con/images/screenshot_enter_battle_room.jpg)]]
+.center[.resize-w280[![バトル募集](../contents/2018-vue-fes-reject-con/images/screenshot_enter_battle_room.jpg)]]
 ] <!-- .seven.wide.column -->
 ] <!-- .ui.grid -->
 
@@ -227,7 +227,7 @@ layout: false
 
 ] <!-- eight.wide.column -->
 .seven.wide.column[
-.center[.resize-w280[![バトル募集](contents/2018-vue-fes-reject-con/images/screenshot_battle_room.jpg)]]
+.center[.resize-w280[![バトル募集](../contents/2018-vue-fes-reject-con/images/screenshot_battle_room.jpg)]]
 ] <!-- .seven.wide.column -->
 ] <!-- .ui.grid -->
 
@@ -250,13 +250,13 @@ layout: false
 .seven.wide.column[
 .center[
 <br>
-.resize-w180[![バトル募集](contents/2018-vue-fes-reject-con/images/PWA_logo.png)]
+.resize-w180[![バトル募集](../contents/2018-vue-fes-reject-con/images/PWA_logo.png)]
 
-.resize-w240[![バトル募集](contents/2018-vue-fes-reject-con/images/nuxt_js_logo_horizontal.png)]
+.resize-w240[![バトル募集](../contents/2018-vue-fes-reject-con/images/nuxt_js_logo_horizontal.png)]
 
-.resize-w240[![バトル募集](contents/2018-vue-fes-reject-con/images/skyway_logo.png)]
+.resize-w240[![バトル募集](../contents/2018-vue-fes-reject-con/images/skyway_logo.png)]
 
-.resize-w240[![バトル募集](contents/2018-vue-fes-reject-con/images/firebase_realtime_database_logo.png)]
+.resize-w240[![バトル募集](../contents/2018-vue-fes-reject-con/images/firebase_realtime_database_logo.png)]
 
 ]<!-- center -->
 ]<!-- .eight.wide.column -->
@@ -299,7 +299,7 @@ module.exports = {
 ```
 ]
 .nine.wide.column[
-.resize-w640[![バトル募集](contents/2018-vue-fes-reject-con/images/developer_console_sw.jpg)]
+.resize-w640[![バトル募集](../contents/2018-vue-fes-reject-con/images/developer_console_sw.jpg)]
 ]
 ]
 
@@ -340,7 +340,7 @@ peer.on('open', () =>
 
 ---
 ### SkyWay JavaScript SDK
-![Safari対応](contents/2018-vue-fes-reject-con/images/safari_support.jpg)
+![Safari対応](../contents/2018-vue-fes-reject-con/images/safari_support.jpg)
 
 .text-align-right[
 [※2018.11.7時点](https://support.skyway.io/hc/ja/articles/115012750968-Safari%E3%81%B8%E3%81%AE%E5%AF%BE%E5%BF%9C%E7%8A%B6%E6%B3%81)
@@ -402,7 +402,7 @@ CI/CD が 簡単に回ることが PWA アプリ の 強味
 - GitHub で 管理、CircleCI で Pages へ デプロイ
   - スライドのバージョン管理ができる
   - 複数人で作業する場合も Git の マージ でできる
-.img-md[![](contents/2018-vue-fes-reject-con/images/003.png)]
+.img-md[![](../contents/2018-vue-fes-reject-con/images/003.png)]
 
 
 ---
@@ -419,8 +419,8 @@ CI/CD が 簡単に回ることが PWA アプリ の 強味
 　　align="left"
 　　style="transform-origin: 0px 0px 0px;"></iframe>
 ```
-.img-001[![](contents/2018-vue-fes-reject-con/images/001.png)]
-.img-002[![](contents/2018-vue-fes-reject-con/images/002.png)]
+.img-001[![](../contents/2018-vue-fes-reject-con/images/001.png)]
+.img-002[![](../contents/2018-vue-fes-reject-con/images/002.png)]
 
 
 
@@ -465,7 +465,7 @@ class: bottom, center, backcover
   It's been a pleasure being with all of you today, thank you.
 ]
 
-![](assets/riotz.png)
+![](../assets/riotz.png)
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny) on .fa[.fa-twitter[]]]
 
 
@@ -473,4 +473,4 @@ class: bottom, center, backcover
 count: false
 class: bottom, center, eof
 ## EOF
-![](assets/riotz.png)
+![](../assets/riotz.png)

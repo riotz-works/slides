@@ -3,7 +3,7 @@ count: false
 class: cover, center, middle
 # リアルタイムの競演と参加型観戦で音楽を
 # 最高に楽しむ「ラップ､タップ､アップ🎶」
-.event-logo[[![](assets/logo/spajam.png)](https://spajam.jp/2018/entry/tokyo-d/)]
+.event-logo[[![](../assets/logo/spajam.png)](https://spajam.jp/2018/entry/tokyo-d/)]
 .english[
   ~PSYCHEDELIC VIOLENCE CRIME OF VISUAL SHOCK によせて~
 ]
@@ -29,13 +29,13 @@ class: cover, center, middle
   ** 演奏 と 観戦者 が 一体となって盛り上がれる体験をしたい！！ **  
 ]]
 ]
-![](contents/2018-spajam-qualification/images/hide.jpg "hide")
+![](../contents/2018-spajam-qualification/images/hide.jpg "hide")
 ]
 
 
 ---
 ### それを実現します「ラップ、タップ、アップ」！！
-.center[.resize-h320a[![](contents/2018-spajam-qualification/images/01.png)]]
+.center[.resize-h320a[![](../contents/2018-spajam-qualification/images/01.png)]]
 
 
 ---
@@ -82,9 +82,9 @@ class: center, backcover
   It’s been a pleasure being with all of you today, thank you.
 ]
 
-.resize-h320-box[.resize-h320[![](bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
-.resize-h320-box[.resize-h320[![](bio/lopburny/photo.jpg)] .img-text[lopburny]]
-.resize-h320-box[.resize-h320[![](bio/javaponny/photo.jpg)] .img-text[javaponny]]  
+.resize-h320-box[.resize-h320[![](../bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
+.resize-h320-box[.resize-h320[![](../bio/lopburny/photo.jpg)] .img-text[lopburny]]
+.resize-h320-box[.resize-h320[![](../bio/javaponny/photo.jpg)] .img-text[javaponny]]  
 .small[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny), [@javaponny](https://twitter.com/javaponny) on .fa[.fa-twitter[]]]
@@ -94,4 +94,4 @@ class: center, backcover
 count: false
 class: bottom, center, eof
 ## EOF
-![](assets/riotz.png)
+![](../assets/riotz.png)

@@ -2,7 +2,7 @@ name: サーバーレスで最高に楽しめるアプリ開発
 count: false
 class: cover, center, middle
 # サーバーレスで最高に楽しめるアプリ開発
-.event-logo[[![](assets/logo/devsumi.png)](https://event.shoeisha.jp/devsumi/20190214/)]
+.event-logo[[![](../assets/logo/devsumi.png)](https://event.shoeisha.jp/devsumi/20190214/)]
 .english[
   Application development with serverless is most fun !
 ]
@@ -37,9 +37,9 @@ layout: false
 .center[
   .text-large-48[.marker[Riotz.works]], a cheerful engineering team !!
 
-  .resize-h320-box[.resize-w240-h320[![](bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
-  .resize-h320-box[.resize-w240-h320[![](bio/lopburny/photo.jpg)] .img-text[lopburny]]
-  .resize-h320-box[.resize-w240-h320[![](bio/javaponny/photo.jpg)] .img-text[javaponny]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/lopburny/photo.jpg)] .img-text[lopburny]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/javaponny/photo.jpg)] .img-text[javaponny]]
 ]
 .footnote[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
@@ -60,7 +60,7 @@ layout: false
   ウェブサービスやアプリ開発だけでなく Raspberry Pi などの電子工作や Slack などのチャットボットなどと、いろいろと手を出す。
 ]
 .four.wide.column[
-  .resize-w240[![](bio/lulzneko/photo.jpg)]  
+  .resize-w240[![](../bio/lulzneko/photo.jpg)]  
   .social[.fa[.fa-github[]] [@lulzneko](https://github.com/lulzneko)]  
   .social[.fa[.fa-twitter[]] [@lulzneko](https://twitter.com/lulzneko)]  
   .mail[.fa[.fa-envelope-o[]] lulzneko&#x40;riotz.works]  
@@ -102,10 +102,10 @@ class: center, middle
 - １チーム５名編成のところを ３人と少人数参戦  
   (ハッカソン自体も初参加)  
 
-.spajam-slide[![](contents/2018-serverless-conf/images/100.png)]
-.spajam-photo-2-pin[![](contents/2018-serverless-conf/images/pin.png)] .spajam-photo-2[![](contents/2018-serverless-conf/images/102.jpg)]
-.spajam-photo-3-pin[![](contents/2018-serverless-conf/images/pin.png)] .spajam-photo-3[![](contents/2018-serverless-conf/images/103.jpg)]
-.spajam-photo-4-pin[![](contents/2018-serverless-conf/images/pin.png)] .spajam-photo-4[![](contents/2018-serverless-conf/images/104.jpg)]
+.spajam-slide[![](../contents/2018-serverless-conf/images/100.png)]
+.spajam-photo-2-pin[![](../contents/2018-serverless-conf/images/pin.png)] .spajam-photo-2[![](../contents/2018-serverless-conf/images/102.jpg)]
+.spajam-photo-3-pin[![](../contents/2018-serverless-conf/images/pin.png)] .spajam-photo-3[![](../contents/2018-serverless-conf/images/103.jpg)]
+.spajam-photo-4-pin[![](../contents/2018-serverless-conf/images/pin.png)] .spajam-photo-4[![](../contents/2018-serverless-conf/images/104.jpg)]
 
 
 ---
@@ -136,7 +136,7 @@ class: center, middle
 
 ---
 ### 「ラップ、タップ、アップ 🎶」の サーバーレスなアーキテクチャ
-.center[.resize-hx[![](contents/2018-serverless-conf/images/110.png)]]
+.center[.resize-hx[![](../contents/2018-serverless-conf/images/110.png)]]
 ---
 ### 「ラップ、タップ、アップ 🎶」の サーバーレスなアーキテクチャ
 - スマホ サイド
@@ -200,7 +200,7 @@ class: center, middle
 
 - 既存 の オンプレ・システム と バッチ連携 および IP 制限 あり の Web API アクセス
 
-.center[.arch[![](contents/2018-agile-and-devopts-study/images/103.png "クラウド連携に必要な仕掛け")]]
+.center[.arch[![](../contents/2018-agile-and-devopts-study/images/103.png "クラウド連携に必要な仕掛け")]]
 
 
 ---
@@ -220,7 +220,7 @@ class: center, middle
 ]
 
 
-![](contents/2017-serverless-conf/images/architecture-change-to-lambda.png "移行後システムのアーキ図")
+![](../contents/2017-serverless-conf/images/architecture-change-to-lambda.png "移行後システムのアーキ図")
 ]
 
 
@@ -239,7 +239,7 @@ class: center, middle
 
 #### そして... ~~伝説へ~~
 ]
-![](contents/2017-serverless-conf/images/enhanced-system.png "エンハンス後システムのアーキ図")
+![](../contents/2017-serverless-conf/images/enhanced-system.png "エンハンス後システムのアーキ図")
 ]
 
 
@@ -258,7 +258,7 @@ class: center, middle
 - 分割しすぎ、パス長すぎ！
 - コールドスタート、甘く見すぎ！
 ]
-![](contents/2017-serverless-conf/images/enhanced-system-problem.png "エンハンス後システムのアーキ図 と 原因")
+![](../contents/2017-serverless-conf/images/enhanced-system-problem.png "エンハンス後システムのアーキ図 と 原因")
 ]
 
 
@@ -282,7 +282,7 @@ class: center, middle
   **どうする😱**  
 ]
 ]
-![](contents/2017-serverless-conf/images/enhanced-system-problem.png "エンハンス後システムのアーキ図 と 原因")
+![](../contents/2017-serverless-conf/images/enhanced-system-problem.png "エンハンス後システムのアーキ図 と 原因")
 ]
 
 
@@ -325,10 +325,10 @@ class: center, middle
 .seven.wide.column[
 .small[
 AWS Lambda の 処理時間比較
-.resize-h[![](contents/2017-serverless-conf/images/lambda-perf-diff.png)]
+.resize-h[![](../contents/2017-serverless-conf/images/lambda-perf-diff.png)]
 
 AWS Lambda で 高CPU負荷時の処理時間比較
-.resize-h[![](contents/2017-serverless-conf/images/lambda-perf-cpu.png)]
+.resize-h[![](../contents/2017-serverless-conf/images/lambda-perf-cpu.png)]
 ]
 ]
 ]
@@ -345,9 +345,9 @@ AWS Lambda で 高CPU負荷時の処理時間比較
 .cloudcraft[
 .text[
 .icon[
-![](contents/2017-serverless-conf/images/time-yellow.png "Lambda not in VPC") **Lambda (Java) : 7s ~ 10s** ↑  
+![](../contents/2017-serverless-conf/images/time-yellow.png "Lambda not in VPC") **Lambda (Java) : 7s ~ 10s** ↑  
 
-![](contents/2017-serverless-conf/images/time-red.png "Lambda in VPC") **VPC Lambda (Java) : 17s ~ 20s** ↑
+![](../contents/2017-serverless-conf/images/time-red.png "Lambda in VPC") **VPC Lambda (Java) : 17s ~ 20s** ↑
 ]
 
 呼び出しチェーンの中で 1回でも  
@@ -355,7 +355,7 @@ AWS Lambda で 高CPU負荷時の処理時間比較
 （特にVPC Lambda）
 ほぼタイムアウト　
 ]
-![](contents/2017-serverless-conf/images/enhanced-system-improved-response-time-before.png "改善される前")
+![](../contents/2017-serverless-conf/images/enhanced-system-improved-response-time-before.png "改善される前")
 ]
 
 
@@ -364,9 +364,9 @@ AWS Lambda で 高CPU負荷時の処理時間比較
 .cloudcraft[
 .text[
 .icon[
-![](contents/2017-serverless-conf/images/time-green.png "Lambda not in VPC") **Lambda (Node.js) : 2s ~ 3s** ↑  
+![](../contents/2017-serverless-conf/images/time-green.png "Lambda not in VPC") **Lambda (Node.js) : 2s ~ 3s** ↑  
 
-![](contents/2017-serverless-conf/images/time-yellow.png "Lambda in VPC") **VPC Lambda (Node.js) : 10s ~ 13s** ↑
+![](../contents/2017-serverless-conf/images/time-yellow.png "Lambda in VPC") **VPC Lambda (Node.js) : 10s ~ 13s** ↑
 ]
 
 VPC Lambda の場合、ある程度  
@@ -374,7 +374,7 @@ VPC Lambda の場合、ある程度
 API Gateway のタイムアウトには  
 何とか持ちこたえることができる
 ]
-![](contents/2017-serverless-conf/images/enhanced-system-improved-response-time-after.png "改善される後")
+![](../contents/2017-serverless-conf/images/enhanced-system-improved-response-time-after.png "改善される後")
 ]
 
 
@@ -425,24 +425,24 @@ class: center, middle
 
 ---
 ### 「ラップ、タップ、アップ 🎶」 の ピタゴラ装置例 .small[(1/2)]
-.center[.img-full[![](contents/2019-devsumi/images/rap-arch-01.png)]]
+.center[.img-full[![](../contents/2019-devsumi/images/rap-arch-01.png)]]
 ---
 ### 「ラップ、タップ、アップ 🎶」 の ピタゴラ装置例 .small[(2/2)]
-.center[.img-full[![](contents/2019-devsumi/images/rap-arch-02.png)]]
+.center[.img-full[![](../contents/2019-devsumi/images/rap-arch-02.png)]]
 
 ---
 ### IoT バックエンド の ピタゴラ装置例 .small[(1/2)]
-.center[.img-full[![](contents/2019-devsumi/images/iot-arch-01.png)]]
+.center[.img-full[![](../contents/2019-devsumi/images/iot-arch-01.png)]]
 ---
 ### IoT バックエンド の ピタゴラ装置例 .small[(2/2)]
-.center[.img-full[![](contents/2019-devsumi/images/iot-arch-02.png)]]
+.center[.img-full[![](../contents/2019-devsumi/images/iot-arch-02.png)]]
 
 ---
 ### CI/CD の ピタゴラ装置例 .small[(1/2)]
-.center[.img-full[![](contents/2019-devsumi/images/cicd-arch-01.png)]]
+.center[.img-full[![](../contents/2019-devsumi/images/cicd-arch-01.png)]]
 ---
 ### CI/CD の ピタゴラ装置例 .small[(2/2)]
-.center[.img-full[![](contents/2019-devsumi/images/cicd-arch-02.png)]]
+.center[.img-full[![](../contents/2019-devsumi/images/cicd-arch-02.png)]]
 
 
 
@@ -491,7 +491,7 @@ class: bottom, center, backcover
   It's been a pleasure being with all of you today, thank you.
 ]
 
-![](assets/riotz.png)
+![](../assets/riotz.png)
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
@@ -515,4 +515,4 @@ class: appendix
 count: false
 class: bottom, center, eof
 ## EOF
-![](assets/riotz.png)
+![](../assets/riotz.png)

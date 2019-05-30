@@ -3,7 +3,7 @@ count: false
 class: cover, center, middle
 # 「ミツカルヘアサロン💇」
 # 〜個人が提案する時代に向けたアプリ～
-.event-logo[[![](assets/logo/cto-samurai.png)](https://cto-samurai.connpass.com/event/120473/)]
+.event-logo[[![](../assets/logo/cto-samurai.png)](https://cto-samurai.connpass.com/event/120473/)]
 .footer[[@CTO vs Hackers ハッカソン](https://cto-samurai.connpass.com/event/120473/) / 5 min<br /> .small[__\* A material for recording based on slides at time of presentation__]]
 
 
@@ -32,7 +32,7 @@ layout: false
   ウェブサービスやアプリ開発だけでなく Raspberry Pi などの電子工作や Slack などのチャットボットなどと、いろいろと手を出す。
 ]
 .four.wide.column[
-  .resize-w240[![](bio/lulzneko/photo.jpg)]  
+  .resize-w240[![](../bio/lulzneko/photo.jpg)]  
   .social[.fa[.fa-github[]] [@lulzneko](https://github.com/lulzneko)]  
   .social[.fa[.fa-twitter[]] [@lulzneko](https://twitter.com/lulzneko)]  
   .mail[.fa[.fa-envelope-o[]] lulzneko&#x40;riotz.works]  
@@ -48,8 +48,8 @@ layout: false
 class: no-logo
 ### オリジナルの発表資料
 .center[
-  .original[![](contents/2019-cto-vs-hackers-hackathon/images/01.png)] .original[![](contents/2019-cto-vs-hackers-hackathon/images/02.png)]
-  .original[![](contents/2019-cto-vs-hackers-hackathon/images/03.png)] .original[![](contents/2019-cto-vs-hackers-hackathon/images/04.png)]
+  .original[![](../contents/2019-cto-vs-hackers-hackathon/images/01.png)] .original[![](../contents/2019-cto-vs-hackers-hackathon/images/02.png)]
+  .original[![](../contents/2019-cto-vs-hackers-hackathon/images/03.png)] .original[![](../contents/2019-cto-vs-hackers-hackathon/images/04.png)]
 ]
 
 
@@ -62,7 +62,7 @@ class: bottom, center, backcover
   It's been a pleasure being with all of you today, thank you.
 ]
 
-![](contents/2019-cto-vs-hackers-hackathon/images/unit.png)
+![](../contents/2019-cto-vs-hackers-hackathon/images/unit.png)
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
@@ -81,4 +81,4 @@ class: appendix
 count: false
 class: bottom, center, eof
 ## EOF
-![](contents/2019-cto-vs-hackers-hackathon/images/unit.png)
+![](../contents/2019-cto-vs-hackers-hackathon/images/unit.png)

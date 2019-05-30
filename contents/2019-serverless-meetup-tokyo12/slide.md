@@ -2,7 +2,7 @@ name: サーバーレスなウェブフロントを実現する JAMStack
 count: false
 class: cover, center, middle
 # サーバーレスなウェブフロントを実現する JAMStack
-.event-logo[[![](assets/logo/serverlesstokyo12.jpg)](https://serverless.connpass.com/event/130509/)]
+.event-logo[[![](../assets/logo/serverlesstokyo12.jpg)](https://serverless.connpass.com/event/130509/)]
 .english[
   JAMStack, an architecture to realizes serverless web front
 ]
@@ -41,9 +41,9 @@ layout: false
   .text-large-48[.marker[Riotz.works]], a cheerful engineering team !!  
   .small["サーバーレスはエンジニアにとって最強の武器" を 標榜するエンジニアチーム！]  
 
-  .resize-h320-box[.resize-w240-h320[![](bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
-  .resize-h320-box[.resize-w240-h320[![](bio/lopburny/photo.jpg)] .img-text[lopburny]]
-  .resize-h320-box[.resize-w240-h320[![](bio/javaponny/photo.jpg)] .img-text[javaponny]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/lopburny/photo.jpg)] .img-text[lopburny]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/javaponny/photo.jpg)] .img-text[javaponny]]
 ]
 .footnote[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
@@ -64,7 +64,7 @@ layout: false
   ウェブサービスやアプリ開発だけでなく Raspberry Pi などの電子工作や Slack などのチャットボットなどと、いろいろと手を出す。
 ]
 .four.wide.column[
-  .resize-w240[![](bio/lulzneko/photo.jpg)]  
+  .resize-w240[![](../bio/lulzneko/photo.jpg)]  
   .social[.fa[.fa-github[]] [@lulzneko](https://github.com/lulzneko)]  
   .social[.fa[.fa-twitter[]] [@lulzneko](https://twitter.com/lulzneko)]  
   .mail[.fa[.fa-envelope-o[]] lulzneko&#x40;riotz.works]  
@@ -106,7 +106,7 @@ class: center, middle
   - どれも素晴らしい。しかしながら **必要ですよね、インスタンス**。
 
 .text-large-32[**フロントも含めて、サーバーレスにしましょう！ JAMStack でね！！**]
-.img-ref-slides[![](contents/2019-serverless-meetup-tokyo12/images/01.png)]
+.img-ref-slides[![](../contents/2019-serverless-meetup-tokyo12/images/01.png)]
 
 
 
@@ -121,7 +121,7 @@ class: center, middle
 ---
 ### JAMStack って、なに？
 JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
-.img-jamstack-def[![](contents/2019-jaws-days/images/01.png)]
+.img-jamstack-def[![](../contents/2019-jaws-days/images/01.png)]
 - ウェブサイト や アプリ を 構築するための新しいアーキテクチャ
 - **クライアントサイドJavaScript**、**再利用可能なAPI**、**構築済みのマークアップ** が ベースとなる
 - **J**avaScript, **A**PIs, **M**arkup の 頭文字 **JAM** の Stack
@@ -147,7 +147,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 ---
 ### つまり？　これを
-.img-jamstack-old[![](contents/2019-jaws-days/images/02.png)]
+.img-jamstack-old[![](../contents/2019-jaws-days/images/02.png)]
 
 .footnote[
   [Slide 20 - The Old Stack](https://speakerdeck.com/biilmann/the-jam-stack?slide=9)  
@@ -156,7 +156,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 ---
 ### つまり？　これを、こうして
-.img-jamstack-new[![](contents/2019-jaws-days/images/03.png)]
+.img-jamstack-new[![](../contents/2019-jaws-days/images/03.png)]
 
 .top-right[.footnote[
   [Slide 20 - The Old Stack](https://speakerdeck.com/biilmann/the-jam-stack?slide=9)  
@@ -166,7 +166,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 ---
 ### つまり？　これを、こうして、こうなる .small[(1/2)]
-.img-jamstack-all[![](contents/2019-jaws-days/images/04.png)]
+.img-jamstack-all[![](../contents/2019-jaws-days/images/04.png)]
 
 .footnote[
   The JAM Stack - .url[[https://speakerdeck.com/biilmann/the-jam-stack](https://speakerdeck.com/biilmann/the-jam-stack)] (一部修正)  
@@ -174,7 +174,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 ---
 ### つまり？　これを、こうして、こうなる .small[(2/2)]
-.img-jamstack-all[![](contents/2019-jaws-days/images/05.png)]
+.img-jamstack-all[![](../contents/2019-jaws-days/images/05.png)]
 
 .footnote[
   The JAM Stack - .url[[https://speakerdeck.com/biilmann/the-jam-stack](https://speakerdeck.com/biilmann/the-jam-stack)] (一部修正)  
@@ -197,7 +197,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 - **より良質な開発者エクスペリエンス**  
   疎結合化による開発ターゲットと責務の明確化  
 
-.img-jamstack-tr[![](contents/2019-jaws-days/images/05.png)]
+.img-jamstack-tr[![](../contents/2019-jaws-days/images/05.png)]
 
 
 ---
@@ -234,7 +234,7 @@ SSG、Static Site Generator と 呼ばれるツールを使うことが多い
 .ui.grid[
 .six.wide.column[
 StaticGen - .url[.small[[https://www.staticgen.com](https://www.staticgen.com/)]]
-.img-staitc-gen[![](contents/2019-jaws-days/images/06.png)]
+.img-staitc-gen[![](../contents/2019-jaws-days/images/06.png)]
 ]
 .nine.wide.column[.static-gen[
 サイト系
@@ -263,10 +263,10 @@ class: center, middle
 ]
 ---
 ### AWS x JAMStack アーキテクチャ - よく使うパターン
-.img-arch-02[![](contents/2019-jaws-days/images/arch-02.png)]
+.img-arch-02[![](../contents/2019-jaws-days/images/arch-02.png)]
 ---
 ### AWS x JAMStack アーキテクチャ - ウェブサイト
-.img-arch-03[![](contents/2019-jaws-days/images/arch-03.png)]
+.img-arch-03[![](../contents/2019-jaws-days/images/arch-03.png)]
 
 
 ---
@@ -290,9 +290,9 @@ class: center, middle
   動画中継を API 利用に回すことで静的サイトとして構築  
   .url[[https://riotz.works/rap-tap-app](https://riotz.works/rap-tap-app/)]  
 
-.img-left-riotz[![](contents/2019-jaws-days/images/07.png)]
-.img-left-rap-top[![](contents/2019-jaws-days/images/08.jpg)]
-.img-left-rap-vs[![](contents/2019-jaws-days/images/09.jpg)]
+.img-left-riotz[![](../contents/2019-jaws-days/images/07.png)]
+.img-left-rap-top[![](../contents/2019-jaws-days/images/08.jpg)]
+.img-left-rap-vs[![](../contents/2019-jaws-days/images/09.jpg)]
 
 ---
 ### 銀の弾丸ではない
@@ -311,8 +311,8 @@ e.g.
 
 とはいえ、何か他のケースは... 🤔
 
-.img-left-rap-top[![](contents/2019-jaws-days/images/08.jpg)]
-.img-left-rap-vs[![](contents/2019-jaws-days/images/09.jpg)]
+.img-left-rap-top[![](../contents/2019-jaws-days/images/08.jpg)]
+.img-left-rap-vs[![](../contents/2019-jaws-days/images/09.jpg)]
 
 
 ---
@@ -346,7 +346,7 @@ class: bottom, center, backcover
   It's been a pleasure being with all of you today, thank you.
 ]
 
-![](assets/riotz.png)
+![](../assets/riotz.png)
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) on .fa[.fa-twitter[]]]
 
 
@@ -366,4 +366,4 @@ class: appendix
 count: false
 class: bottom, center, eof
 ## EOF
-![](assets/riotz.png)
+![](../assets/riotz.png)

@@ -3,7 +3,7 @@ count: false
 class: cover, center, middle
 # リアルタイム動画ラップ バトル アプリを
 # 短時間で作り上げた完全サーバーレスな秘技
-.event-logo[[![](assets/logo/serverlessconf.png)](http://2018.serverlessconf.tokyo/)]
+.event-logo[[![](../assets/logo/serverlessconf.png)](http://2018.serverlessconf.tokyo/)]
 .english[
   Serverless tricks which real-time video rap battle application was built in a short time
 ]
@@ -42,9 +42,9 @@ layout: false
 .ratio48-9-center[
 ### About us
 .center[
-  .resize-h320-box[.resize-w240-h320[![](bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
-  .resize-h320-box[.resize-w240-h320[![](bio/lopburny/photo.jpg)] .img-text[lopburny]]
-  .resize-h320-box[.resize-w240-h320[![](bio/javaponny/photo.jpg)] .img-text[javaponny]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/lopburny/photo.jpg)] .img-text[lopburny]]
+  .resize-h320-box[.resize-w240-h320[![](../bio/javaponny/photo.jpg)] .img-text[javaponny]]
 ]
 .footnote[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 ]
@@ -68,7 +68,7 @@ layout: false
   ウェブサービスやアプリの開発だけでなく Raspberry Pi などの電子工作や Slack などのチャットボットなどと、いろいろと手を出す。
 ]
 .four.wide.column[
-  .resize-w240[![](bio/lulzneko/photo.jpg)]  
+  .resize-w240[![](../bio/lulzneko/photo.jpg)]  
   .social[.fa[.fa-github[]] [@lulzneko](https://github.com/lulzneko)]  
   .social[.fa[.fa-twitter[]] [@lulzneko](https://twitter.com/lulzneko)]  
 ]
@@ -102,10 +102,10 @@ layout: false
 ]
 ]
 .ratio48-9-right[
-  .spajam-slide[![](contents/2018-serverless-conf/images/100.png)]
-  .spajam-photo-2-pin[![](contents/2018-serverless-conf/images/pin.png)] .spajam-photo-2[![](contents/2018-serverless-conf/images/102.jpg)]
-  .spajam-photo-3-pin[![](contents/2018-serverless-conf/images/pin.png)] .spajam-photo-3[![](contents/2018-serverless-conf/images/103.jpg)]
-  .spajam-photo-4-pin[![](contents/2018-serverless-conf/images/pin.png)] .spajam-photo-4[![](contents/2018-serverless-conf/images/104.jpg)]
+  .spajam-slide[![](../contents/2018-serverless-conf/images/100.png)]
+  .spajam-photo-2-pin[![](../contents/2018-serverless-conf/images/pin.png)] .spajam-photo-2[![](../contents/2018-serverless-conf/images/102.jpg)]
+  .spajam-photo-3-pin[![](../contents/2018-serverless-conf/images/pin.png)] .spajam-photo-3[![](../contents/2018-serverless-conf/images/103.jpg)]
+  .spajam-photo-4-pin[![](../contents/2018-serverless-conf/images/pin.png)] .spajam-photo-4[![](../contents/2018-serverless-conf/images/104.jpg)]
 ]
 
 
@@ -127,7 +127,7 @@ layout: false
   - SFU の 利用に より 競演者２名の動画中継 と 観戦者への同時配信を実現
 ]
 .ratio48-9-right[
-  .center[.resize-h620[![](contents/2018-serverless-conf/images/110.png)]]
+  .center[.resize-h620[![](../contents/2018-serverless-conf/images/110.png)]]
 ]
 
 
@@ -150,8 +150,8 @@ layout: false
   仕事もプライベートも、一所懸命ロックンロールしたいと思っている、ウェブエンジニア。
 ]
 .four.wide.column[
-  .resize-w240[![](bio/lopburny/photo.jpg)]  
-  .resize-w120[![](bio/certs/aws-solutions-architect-professional-badge.png)]  
+  .resize-w240[![](../bio/lopburny/photo.jpg)]  
+  .resize-w120[![](../bio/certs/aws-solutions-architect-professional-badge.png)]  
   .social[.fa[.fa-github[]] [@lopburny](https://github.com/lopburny)]  
   .social[.fa[.fa-twitter[]] [@lopburny](https://twitter.com/lopburny)]  
 ]
@@ -289,9 +289,9 @@ layout: false
   現在はウェブアプリケーションのバックエンド開発に従事し、最近はフロントエンドに興味を持ち始め勉強中。  
 ]
 .four.wide.column[
-  .resize-w240-fit[![](bio/javaponny/photo.jpg)]  
-  .resize-w120[![](bio/certs/aws-devops-professional-badge.png)]
-  .resize-w120[![](bio/certs/aws-solutions-architect-professional-badge.png)]  
+  .resize-w240-fit[![](../bio/javaponny/photo.jpg)]  
+  .resize-w120[![](../bio/certs/aws-devops-professional-badge.png)]
+  .resize-w120[![](../bio/certs/aws-solutions-architect-professional-badge.png)]  
   .social[.fa[.fa-github[]] [@javaponny](https://github.com/javaponny)]  
   .social[.fa[.fa-twitter[]] [@javaponny](https://twitter.com/javaponny)]  
 ]
@@ -340,7 +340,7 @@ layout: false
 - __TypeScript__
 - __dynamodb-data-mapper__
 - __serverless framework__
-![](contents/2018-serverless-conf/images/300.png)
+![](../contents/2018-serverless-conf/images/300.png)
 
 ]
 ]
@@ -414,7 +414,7 @@ layout: false
 ---
 .ratio48-9-left[
 ### と思っていたのに...
-<img src="contents/2018-serverless-conf/images/301.PNG"　width="300" height="300" />
+<img src="../contents/2018-serverless-conf/images/301.png"　width="300" height="300" />
 - tsconfig esnext.asynciterableも入れたのに…。
 - 時間の制約上ここばかりに時間をかけられないため、queryは泣く泣くDynamoDB DocumentClientを使うことに
 - とはいえ他の操作についてはクラスのマッピングなどは助けられた
@@ -472,7 +472,7 @@ CI/CD が 簡単に回ることが PWA アプリ の 強味
 ]]
 ]
 .ratio48-9-right[
-  .right-image-full[![](contents/2018-serverless-conf/images/400.png)]
+  .right-image-full[![](../contents/2018-serverless-conf/images/400.png)]
 ]
 
 
@@ -493,7 +493,7 @@ CI/CD が 簡単に回ることが PWA アプリ の 強味
   - 複数人で作業する場合も Git の マージ でできる
 ]
 .ratio48-9-right[
-  .right-image-full[![](contents/2018-serverless-conf/images/401.png)]
+  .right-image-full[![](../contents/2018-serverless-conf/images/401.png)]
 ]
 
 
@@ -514,7 +514,7 @@ CI/CD が 簡単に回ることが PWA アプリ の 強味
   - 複数人で作業する場合も Git の マージ でできる
 ]
 .ratio48-9-right[
-  .right-image-full[![](contents/2018-serverless-conf/images/402.png)]
+  .right-image-full[![](../contents/2018-serverless-conf/images/402.png)]
 ]
 
 
@@ -534,7 +534,7 @@ CI/CD が 簡単に回ることが PWA アプリ の 強味
 ```
 ]
 .ratio48-9-right[
-  .right-image-full2[![](contents/2018-serverless-conf/images/403.png)]
+  .right-image-full2[![](../contents/2018-serverless-conf/images/403.png)]
 ]
 
 
@@ -611,7 +611,7 @@ class: bottom, center, backcover
   It's been a pleasure being with all of you today, thank you.
 ]
 
-![](assets/riotz.png)
+![](../assets/riotz.png)
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko), [@lopburny](https://twitter.com/lopburny), [@javaponny](https://twitter.com/javaponny) on .fa[.fa-twitter[]]]
 ]
 
@@ -619,4 +619,4 @@ class: bottom, center, backcover
 count: false
 class: bottom, center, eof
 ## EOF
-![](assets/riotz.png)
+![](../assets/riotz.png)

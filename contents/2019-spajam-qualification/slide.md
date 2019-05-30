@@ -3,7 +3,7 @@ count: false
 class: cover, center, middle
 # パーソナルニュースの配信と交換によって
 # 爆速で仲良くなるアプリ「.marker[📰NEWʑ Link]」
-.event-logo[[![](assets/logo/spajam.png)](https://spajam.jp/2019/entry/tokyo-a/)]
+.event-logo[[![](../assets/logo/spajam.png)](https://spajam.jp/2019/entry/tokyo-a/)]
 .footer[[@SPAJAM 2019 東京A予選 gumi](https://spajam.jp/2019/entry/tokyo-a/) / 8 min]
 
 
@@ -24,7 +24,7 @@ class: cover, center, middle
 
 ---
 ### 個人発信 の 嬉しいニュース 楽しいニュース は たくさん！
-.center[.resize-w100p[![](contents/2019-spajam-qualification/images/01.png)]]
+.center[.resize-w100p[![](../contents/2019-spajam-qualification/images/01.png)]]
 .center[.text-large[
   ** よいニュースが広がることで、よい心の動きへ **  
   ** お互いの よいニュースを知ることで、共感を！ **  
@@ -35,10 +35,10 @@ class: cover, center, middle
 ---
 ### それを実現します「📰NEWʑ Link .small[(ニューズ リンク)]」！！
 .center[
-.resize-h320a[![](contents/2019-spajam-qualification/images/02.png)]
-.resize-h320a[![](contents/2019-spajam-qualification/images/03.png)]
-.resize-h320a[![](contents/2019-spajam-qualification/images/04.png)]
-.resize-h320a[![](contents/2019-spajam-qualification/images/05.png)]
+.resize-h320a[![](../contents/2019-spajam-qualification/images/02.png)]
+.resize-h320a[![](../contents/2019-spajam-qualification/images/03.png)]
+.resize-h320a[![](../contents/2019-spajam-qualification/images/04.png)]
+.resize-h320a[![](../contents/2019-spajam-qualification/images/05.png)]
 ]
 
 
@@ -88,8 +88,8 @@ class: center, backcover
   .marker[このあと 📰NEWʑ Link で、爆速で仲良くなってください！！]
 ]
 
-.resize-h320-box[.resize-h320[![](bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
-.resize-h320-box[.resize-h320[![](bio/lopburny/photo.jpg)] .img-text[lopburny]]
+.resize-h320-box[.resize-h320[![](../bio/lulzneko/photo.jpg)] .img-text[lulzneko]]
+.resize-h320-box[.resize-h320[![](../bio/lopburny/photo.jpg)] .img-text[lopburny]]
 
 .small[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
@@ -113,4 +113,4 @@ class: appendix
 count: false
 class: bottom, center, eof
 ## EOF
-![](assets/riotz.png)
+![](../assets/riotz.png)

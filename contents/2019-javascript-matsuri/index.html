@@ -2,20 +2,21 @@
 <html>
 <head>
     <meta charset="utf-8" />
+
+    <title>Gridsome で作る JAMStack な サーバーレス Web Front | Slides | Riotz.works</title>
+    <meta property="og:title" content="Gridsome で作る JAMStack な サーバーレス Web Front | Slides | Riotz.works" />
+    <meta property="og:description" content="「初夏のJavaScript祭 in メンバーズキャリア」にて発表した際のスライドです。" />
+    <meta property="og:url" content="https://riotz.works/slides/2019-javascript-matsuri" />
+    <meta property="og:image" content="https://riotz.works/slides/2019-javascript-matsuri/images/cover.png" />
+
     <meta property="og:site_name" content="Slides | Riotz.works" />
-    <meta property="og:title" content="Slides | Riotz.works" />
-    <meta property="og:description" content="Slides of Riotz.works" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://riotz.works/slides/" />
-    <meta property="og:image" content="https://riotz.works/assets/logo.png" />
-    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="article" />
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@riotz_works">
     <meta name="twitter:creator" content="@riotz_works">
 
-    <title>Slides | Riotz.works</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109297390-1"></script>
@@ -30,16 +31,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <script>
-        const source = window.location.search.replace(/[?]/g, '');
-        const slide = source.indexOf('&') !== -1 ? source.substring(0, source.indexOf('&')) : source;
+        const path = window.location.pathname;
 
-        if (slide) {
-            window.location = `${window.location.origin}${window.location.pathname}${slide}`;
-        }
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = `style.css`;
+        document.querySelector('head').appendChild(link);
 
         const slideshow = remark.create({
-            sourceUrl: 'README.md',
-            ratio: '16:9',    // Set the slideshow display ratio. Default: '4:3', Alternatives: '16:9', ...
+            sourceUrl: `slide.md`,
+            ratio: '16:9',      // Set the slideshow display ratio. Default: '4:3', Alternatives: '16:9', ...
             navigation: {
                 scroll: true,   // Enable or disable navigating using scroll. Default: true,  Alternatives: false
                 touch: true,    // Enable or disable navigation using touch.  Default: true,  Alternatives: false
@@ -47,9 +48,15 @@
             }
         }, (slideshow) => {
             if (window.location.host.includes('localhost')) {
-                const links = document.querySelectorAll('a');
+                const links = document.querySelectorAll('link');
                 links.forEach((link) => {
-                    link.href = `contents${link.href.replace(window.location.origin, '')}`;
+                    if (link.href.includes('assets')) {
+                        link.href = link.href.replace('/contents', '');
+                    }
+                });
+                const imgs = document.querySelectorAll('img');
+                imgs.forEach((img) => {
+                    img.src = img.src.replace('/contents', '');
                 });
             }
         });
@@ -60,7 +67,7 @@
         if(window !== window.parent) {
             let link = document.createElement('link');
             link.rel = 'stylesheet';
-            link.href = 'assets/iframe.css';
+            link.href = '../assets/iframe.css';
             document.querySelector('head').appendChild(link);
         }
     </script>

@@ -40,8 +40,8 @@ layout: false
   面白そうなら何でも手を出し、面白くなければ楽しくすることを考えて、日々を過ごす。
 ]
 .four.wide.column[
-  .resize-w240[![](bio/lulzneko/photo.jpg)]  
-  .resize-w240[![](bio/certs/aws-solutions-architect-professional.jpg)]  
+  .resize-w240[![](../bio/lulzneko/photo.jpg)]  
+  .resize-w240[![](../bio/certs/aws-solutions-architect-professional.jpg)]  
   .social[.fa[.fa-github[]] [@lulzneko](https://github.com/lulzneko)]  
   .social[.fa[.fa-twitter[]] [@lulzneko](https://twitter.com/lulzneko)]  
 ]
@@ -63,7 +63,7 @@ layout: false
   仕事もプライベートも、一所懸命ロックンロールしたいと思っている、ウェブエンジニア。
 ]
 .four.wide.column[
-  .resize-w240[![](bio/lopburny/photo.jpg)]  
+  .resize-w240[![](../bio/lopburny/photo.jpg)]  
   .social[.fa[.fa-github[]] [@lopburny](https://github.com/lopburny)]  
   .social[.fa[.fa-twitter[]] [@lopburny](https://twitter.com/lopburny)]  
 ]
@@ -87,7 +87,7 @@ class: center, middle
   - 販売 に おける お客さま情報 (e.g. ユーザー ID、クラウドサービス加入情報)
   - 配送 に おける お客さま情報 と 配送するデバイスの情報 (e.g. ユーザ ID、シリアル番号)
 
-.center[.arch[![](contents/2018-agile-and-devopts-study/images/103.png "クラウド連携に必要な仕掛け")]]
+.center[.arch[![](../contents/2018-agile-and-devopts-study/images/103.png "クラウド連携に必要な仕掛け")]]
 
 
 ---
@@ -127,7 +127,7 @@ class: center, middle
 - 迅速なデプロイ  
 - 問題箇所を特定・fix し易い  
 ]
-![](contents/2018-agile-and-devopts-study/images/200.png "エンハウンス後のシステムアーキ図")
+![](../contents/2018-agile-and-devopts-study/images/200.png "エンハウンス後のシステムアーキ図")
 ]
 
 ---
@@ -139,7 +139,7 @@ class: center, middle
 - 本システムも購入データ連携に S3, SNS, DynamoDB Stream, Kinesis Data Firehose を積極活用  
   "バッチサーバー"を持たないデータ連携を実現
 <br><br>
-.center[.slide[![](contents/2018-agile-and-devopts-study/images/201.png "マイクロサービス")]]
+.center[.slide[![](../contents/2018-agile-and-devopts-study/images/201.png "マイクロサービス")]]
 ---
 class: center, middle
 ## アーキテクチャ変更と影響
@@ -158,7 +158,7 @@ class: center, middle
     (VPC Lambda 必須)
   - マイクロ化が過剰で複雑になった
 ]
-![](contents/2017-serverless-conf/images/enhanced-system.png "エンハウンス後のシステムアーキ図")
+![](../contents/2017-serverless-conf/images/enhanced-system.png "エンハウンス後のシステムアーキ図")
 ]
 ---
 ### 問題と原因
@@ -179,7 +179,7 @@ class: center, middle
   コールドスタートの影響を  
   最小限に抑える必要があった
 ]
-![](contents/2017-serverless-conf/images/enhanced-system-problem.png "エンハウンス後のシステムアーキ図")
+![](../contents/2017-serverless-conf/images/enhanced-system-problem.png "エンハウンス後のシステムアーキ図")
 ]
 ---
 ### AWS Lambda の 実行ランタイムを変更
@@ -257,9 +257,9 @@ class: center, middle
   #### コールドスタート時のレスポンスタイム
 
 .icon[
-![](contents/2017-serverless-conf/images/time-yellow.png "Lambda not in VPC") __Lambda (Java) : 7s ~ 10s__ ↑  
+![](../contents/2017-serverless-conf/images/time-yellow.png "Lambda not in VPC") __Lambda (Java) : 7s ~ 10s__ ↑  
 
-![](contents/2017-serverless-conf/images/time-red.png "Lambda in VPC") __VPC Lambda (Java) : 17s ~ 20s__ ↑
+![](../contents/2017-serverless-conf/images/time-red.png "Lambda in VPC") __VPC Lambda (Java) : 17s ~ 20s__ ↑
 ]
 
 呼び出しチェーンの中で 1回でも  
@@ -267,7 +267,7 @@ class: center, middle
 （特にVPC Lambda）
 ほぼタイムアウト　
 ]
-![](contents/2017-serverless-conf/images/enhanced-system-improved-response-time-before.png "改善される前")
+![](../contents/2017-serverless-conf/images/enhanced-system-improved-response-time-before.png "改善される前")
 ]
 ---
 ### TypeScript-lambda 移行後
@@ -276,9 +276,9 @@ class: center, middle
   #### コールドスタート時のレスポンスタイム
 
 .icon[
-![](contents/2017-serverless-conf/images/time-green.png "Lambda not in VPC") __Lambda (Node.js) : 1s ~ 3s__ ↑  
+![](../contents/2017-serverless-conf/images/time-green.png "Lambda not in VPC") __Lambda (Node.js) : 1s ~ 3s__ ↑  
 
-![](contents/2017-serverless-conf/images/time-yellow.png "Lambda in VPC") __VPC Lambda (Node.js) : 11s ~ 13s__ ↑
+![](../contents/2017-serverless-conf/images/time-yellow.png "Lambda in VPC") __VPC Lambda (Node.js) : 11s ~ 13s__ ↑
 ]
 
 VPC Lambda の場合、ある程度  
@@ -286,7 +286,7 @@ VPC Lambda の場合、ある程度
 API Gateway のタイムアウトには  
 何とか持ちこたえることができる
 ]
-![](contents/2017-serverless-conf/images/enhanced-system-improved-response-time-after.png "改善される後")
+![](../contents/2017-serverless-conf/images/enhanced-system-improved-response-time-after.png "改善される後")
 ]
 
 
@@ -393,7 +393,7 @@ class: bottom, center, backcover
   It’s been a pleasure being with all of you today, thank you.
 ]
 
-![](assets/riotz.png)
+![](../assets/riotz.png)
 .footer[Thank you for contacting [@lulzneko](https://twitter.com/lulzneko) & [@lopburny](https://twitter.com/lopburny) by .fa[.fa-twitter[]]]
 
 
@@ -401,4 +401,4 @@ class: bottom, center, backcover
 count: false
 class: bottom, center, eof
 ## EOF
-![](assets/riotz.png)
+![](../assets/riotz.png)
