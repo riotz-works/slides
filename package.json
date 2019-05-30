@@ -4,13 +4,16 @@
   "private": true,
   "devDependencies": {
     "browser-sync": "*",
+    "gh-pages": "*",
     "jsurl-cli": "*",
     "shx": "*"
   },
   "scripts": {
+    "clean": "npx rimraf dist",
     "setup": "yarn install --ignore-optional",
     "dev": "browser-sync start --no-notify --server --files index.html README.md assets/**/* bio/**/* contents/**/* serverlessconf-tokyo-2018.html",
-    "build": "shx mkdir -p ./target/site && shx cp -r index.html 404.html README.md assets bio contents ./target/site"
+    "build": "shx mkdir -p ./dist && shx cp -r index.html 404.html README.md assets bio contents ./dist",
+    "deploy": "gh-pages -d dist -b master -m 'Update Site [ci skip]'"
   },
   "homepage": "https://github.com/riotz-works/slides#readme",
   "repository": {
