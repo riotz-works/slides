@@ -12,36 +12,12 @@ layout: false
 ### About us
 .center[
   .text-large-48[The Unit of .marker[**CTO-Hackathon Hackers** x **Riotz.works**]]
+
+  .profile[[![](../contents/2019-cto-vs-hackers-hackathon/images/imodeicious.png)](https://twitter.com/imodeicious)]
+  .profile[[![](../contents/2019-cto-vs-hackers-hackathon/images/dumblepytech1.png)](https://twitter.com/dumblepytech1)]
+  .profile[[![](../contents/2019-cto-vs-hackers-hackathon/images/rn1tta.png)](https://twitter.com/rn1tta)]
+  .profile[[![](../contents/2019-cto-vs-hackers-hackathon/images/lulzneko.png)](https://twitter.com/lulzneko)]
 ]
-.footnote[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
-
-
----
-layout: false
-### lulzneko .small[(ラルズネコ)] | About us
-.ui.grid[
-.eleven.wide.column[
-  新しい技術を見つけては試すことが大好きで技術を試すためには  
-  目的を選ばない、IT好きで葉巻好き酒好きなだけの猫。
-
-  アイデアを高速で形するアーキとして .marker[**サーバーレスが大のお気に入り**]。何かを作る時もサーバーレスでいけるかを最初に考える。
-
-  Vue.js/Nuxt.js は 高速にフロントエンドの開発ができ、  
-  .marker[**すごいぜ！ Vue.js/Nuxt.js！！** と 心酔]してる。
-
-  ウェブサービスやアプリ開発だけでなく Raspberry Pi などの電子工作や Slack などのチャットボットなどと、いろいろと手を出す。
-]
-.four.wide.column[
-  .resize-w240[![](../bio/lulzneko/photo.jpg)]  
-  .social[.fa[.fa-github[]] [@lulzneko](https://github.com/lulzneko)]  
-  .social[.fa[.fa-twitter[]] [@lulzneko](https://twitter.com/lulzneko)]  
-  .mail[.fa[.fa-envelope-o[]] lulzneko&#x40;riotz.works]  
-]
-
-.footnote[
-  ※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。  
-  　 また Riotz.works は 開発チームの名称です。  
-]]
 
 
 ---
