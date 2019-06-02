@@ -473,6 +473,17 @@ class: bottom, center, backcover
 
 
 ---
+class: appendix
+### Appendix
+**本イベント関連記事**
+- [初夏のJavaScript祭 in メンバーズキャリアにて「Gridsome で作る JAMStack なサーバーレス Web Front」の発表をしました | Articles | Riotz.works](https://riotz.works/articles/2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/)
+
+**テーマ関連記事**
+- [JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
+- [Riots.works での JAMStack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
+
+
+---
 count: false
 class: bottom, center, eof
 ## EOF
