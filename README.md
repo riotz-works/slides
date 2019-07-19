@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+- [Web-NFC の PWA で 簡単タイムレコーダー「ツカエタルヒの記録」](2019-attendance-tech-lt) .event-name[@「勤怠を自動化する技術」LT Night]
+
 - [Gridsome で作る JAMStack な サーバーレス Web Front](2019-javascript-matsuri) .event-name[@初夏のJavaScript祭]
 
 - [サーバーレスなウェブフロントを実現する JAMStack](2019-serverless-meetup-tokyo12) .event-name[@Serverless Meetup Tokyo #12]
