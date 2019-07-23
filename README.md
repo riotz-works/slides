@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+- [サーバレス・ネイティブ が お伝えする、フルサーバレス開発の魅力](2019-cloudnative-days) .event-name[@CloudNative Days Tokyo 2019]
+
 - [Web-NFC の PWA で 簡単タイムレコーダー「ツカエタルヒの記録」](2019-attendance-tech-lt) .event-name[@「勤怠を自動化する技術」LT Night]
 
 - [Gridsome で作る JAMStack な サーバーレス Web Front](2019-javascript-matsuri) .event-name[@初夏のJavaScript祭]
