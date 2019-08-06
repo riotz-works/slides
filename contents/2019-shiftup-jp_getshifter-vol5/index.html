@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <base target="_blank" />
+
+    <title>Shifter ＋ SSG(Static Site Generator) が生み出す、新しい WordPress の世界 | Slides | Riotz.works</title>
+    <meta property="og:title" content="Shifter ＋ SSG(Static Site Generator) が生み出す、新しい WordPress の世界 | Slides | Riotz.works" />
+    <meta property="og:description" content="「Shiftup! JP_Getshifter Vol5」にて発表した際のスライドです。" />
+    <meta property="og:url" content="https://riotz.works/slides/2019-shiftup-jp_getshifter-vol5" />
+    <meta property="og:image" content="https://riotz.works/slides/2019-shiftup-jp_getshifter-vol5/images/cover.png" />
+
+    <meta property="og:site_name" content="Slides | Riotz.works" />
+    <meta property="og:type" content="article" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@riotz_works">
+    <meta name="twitter:creator" content="@riotz_works">
+
+    <link rel="stylesheet" href="../assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109297390-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-109297390-1');
+    </script>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script>
+        const path = window.location.pathname;
+
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = `style.css`;
+        document.querySelector('head').appendChild(link);
+
+        const slideshow = remark.create({
+            sourceUrl: `slide.md`,
+            ratio: '16:9',      // Set the slideshow display ratio. Default: '4:3', Alternatives: '16:9', ...
+            navigation: {
+                scroll: true,   // Enable or disable navigating using scroll. Default: true,  Alternatives: false
+                touch: true,    // Enable or disable navigation using touch.  Default: true,  Alternatives: false
+                click: false    // Enable or disable navigation using click.  Default: false, Alternatives: true
+            }
+        }, (slideshow) => {
+            if (window.location.host.includes('localhost')) {
+                const links = document.querySelectorAll('link');
+                links.forEach((link) => {
+                    if (link.href.includes('assets')) {
+                        link.href = link.href.replace('/contents', '');
+                    }
+                });
+                const imgs = document.querySelectorAll('img');
+                imgs.forEach((img) => {
+                    img.src = img.src.replace('/contents', '');
+                });
+            }
+        });
+
+        slideshow.on('showSlide', (slide) => {});
+        slideshow.on('hideSlide', (slide) => {});
+
+        if(window !== window.parent) {
+            let link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.href = '../assets/iframe.css';
+            document.querySelector('head').appendChild(link);
+        }
+    </script>
+</body>
+</html>

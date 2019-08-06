@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+- [Shifter ＋ SSG(Static Site Generator) が生み出す、新しい WordPress の世界](2019-shiftup-jp_getshifter-vol5) .event-name[@Shiftup! JP_Getshifter Vol5]
+
 - [サーバレス・ネイティブ が お伝えする、フルサーバレス開発の魅力](2019-cloudnative-days) .event-name[@CloudNative Days Tokyo 2019]
 
 - [Web-NFC の PWA で 簡単タイムレコーダー「ツカエタルヒの記録」](2019-attendance-tech-lt) .event-name[@「勤怠を自動化する技術」LT Night]
