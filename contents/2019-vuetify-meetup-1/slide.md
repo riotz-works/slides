@@ -82,10 +82,6 @@ Enjoy our ~~rap~~ .marker[short story with "Rap, Tap, App"].
 ]
 
 
----
-class: center, middle
-## アプリの構成
-
 
 ---
 ### アプリの構成
@@ -121,27 +117,38 @@ class: center, middle
 ]<!-- .ui.grid -->
 
 
----
-class: center, middle
-## Vuetify を使ってみた所感
-
 
 ---
 ### Vuetify を使ってみた所感
 
 #### いいと思った点
   - デザインに自信がなくてもシンプルできれいなUIが作れる
+    - 思いをすぐに形にできる
+    - 作りたいものに集中できる
 
-  - 使いやすい・分かりやすい（思いをすぐに形にできる）
+  - 使いやすい・分かりやすい
+    - semantic なクラス名
+    - マテリアルデザインの仕様に厳格に準拠
  
-  - UIコンポーネントの種類が多く、機能が豊富
+  - UIコンポーネントの種類が豊富、高機能
+    - モバイル向けのコンポーネント多数
+    - Android アプリのような UI に仕上がるので PWA に最適
+
+
+
+---
+### Vuetify を使ってみた所感
+
 
 #### 今後に期待する点
-  - 一部、ドキュメントに詳細な情報が抜けている点
+  - 一部、ドキュメントに詳細な情報が抜けているところの改善
 
-  - カスタマイズの自由度が比較的に低い点（マテリアルデザインだから仕方ないけど・・😅）
+  - カスタマイズの自由度（マテリアルデザインだから仕方ないけど・・😅）
 
-  - [Vuetifty Store / Theme](https://store.vuetifyjs.com/#theme)
+  - Vuetify Theme
+    - [Premium & free thems](https://vuetifyjs.com/ja/themes/premium)
+    - [Vuetifty Store / Theme](https://store.vuetifyjs.com/#theme)
+
 
 
 ---
