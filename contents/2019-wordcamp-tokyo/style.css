@@ -4,6 +4,10 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/container.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/segment.min.css');
 
+.no-logo {
+    background-image: none;
+}
+
 .subtitle {
     font-size: 32px;
     font-weight: 700;
@@ -224,6 +228,21 @@
     width: 510px;
 }
 
+.img-jamstackconf > img {
+    border: 1px #333 solid;
+    width: 800px;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
+
+.img-jamstack > img {
+    border: 1px #333 solid;
+    width: 700px;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
 
 .wrapup-note {
     margin-top: 100px;
@@ -293,6 +312,10 @@
 
 .arrow-left-center {
     margin-left: 300px;
+}
+
+.arrow-left-150 {
+    margin-left: 150px;
 }
 
 .arch img {
