@@ -113,6 +113,23 @@ a:hover, a:active {
     margin-top: 0;
 }
 
+.eyecatch {
+    background: none;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.eyecatch p {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.eyecatch img {
+    height: 100%;
+}
+
 .cover h1 {
     margin: 4px 0;
 }
@@ -186,6 +203,7 @@ a:hover, a:active {
     width: 80%;
 }
 
+.eyecatch .remark-slide-number,
 .cover .remark-slide-number,
 .preface .remark-slide-number,
 .backcover .remark-slide-number,

@@ -1,11 +1,11 @@
-name: JAMStackで構築・運用するサーバーレスなウェブフロント
+name: JAMstackで構築・運用するサーバーレスなウェブフロント
 count: false
 class: cover, center, middle
-# JAMStackで構築・運用する
+# JAMstackで構築・運用する
 # サーバーレスなウェブフロント
 .event-logo[[![](../assets/logo/shifter-jp.png)](https://eventregist.com/e/xiza3ieCWYFc)]
 .english[
-  Serverless Web Front developed and operated by JAMStack
+  Serverless Web Front developed and operated by JAMstack
 ]
 .footer[[@Shiftup! JP_Getshifter Vol3](https://eventregist.com/e/xiza3ieCWYFc) / 20 min]
 
@@ -14,14 +14,14 @@ class: cover, center, middle
 count: false
 class: preface, agenda
 ### Agenda
-1. JAMStack とは .english[
-  What is JAMStack
+1. JAMstack とは .english[
+  What is JAMstack
 ]
-2. AWS の サービス と JAMStack の 対応 .english[
-  Mapping AWS Services to JAMStack
+2. AWS の サービス と JAMstack の 対応 .english[
+  Mapping AWS Services to JAMstack
 ]
-3. JAMStack の 可能性 .english[
-  Possibility of JAMStack
+3. JAMstack の 可能性 .english[
+  Possibility of JAMstack
 ]
 4. まとめ .english[
   Wrap-up
@@ -76,8 +76,8 @@ layout: false
 
 ---
 class: center, middle
-## JAMStack とは .english[
-  What is JAMStack
+## JAMstack とは .english[
+  What is JAMstack
 ]
 ---
 ### "じゃむすたっく" ？
@@ -105,8 +105,8 @@ class: center, middle
 
 
 ---
-### JAMStack って、なに？
-JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
+### JAMstack って、なに？
+JAMstack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 .img-jamstack-def[![](../contents/2019-jaws-days/images/01.png)]
 - ウェブサイト や アプリ を 構築するための新しいアーキテクチャ
 - **クライアントサイドJavaScript**、**再利用可能なAPI**、**構築済みのマークアップ** が ベースとなる
@@ -114,7 +114,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 
 ---
-### どうすると JAMStack ？
+### どうすると JAMstack ？
 定義: クライアントサイドJavaScript、再利用可能なAPI、構築済みのマークアップ が **ベース**
 .arrow-left-center[.text-arrow-large[.fa[.fa-angle-double-down[]]]]
 
@@ -168,7 +168,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 
 ---
-### JAMStack の メリット
+### JAMstack の メリット
 - **より良いパフォーマンス**  
   CDN を 活用することによる高速化  
   HTML 生成の省略による高速化  
@@ -188,7 +188,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 ---
 layout: false
-### JAMStack プロジェクト の ベストプラクティス
+### JAMstack プロジェクト の ベストプラクティス
 .ui.grid[
 .seven.wide.column[
 - **CDN に 全部配置されている**  
@@ -202,7 +202,7 @@ layout: false
 ]
 .seven.wide.column[
 - **自動ビルド**  
-  JAMStack は 特に 事前構築済みの HTML を 使うため、プロセスを自動化しておき、ビルド＆デプロイの負担を下げる  
+  JAMstack は 特に 事前構築済みの HTML を 使うため、プロセスを自動化しておき、ビルド＆デプロイの負担を下げる  
 
 - **アトミックなデプロイ**  
   不整合を避けるに全ファイルがアップロードされるまで変更が行われないようにする  
@@ -213,7 +213,7 @@ layout: false
 
 
 ---
-### JAMStack を 構築する 静的サイトジェネレータ
+### JAMstack を 構築する 静的サイトジェネレータ
 定義: **構築済みのマークアップ**、HTML は .marker[サイトジェネレータ や ビルドツール で] 事前生成する  
 .arrow-left-center[.text-arrow-large[.fa[.fa-angle-double-down[]]]]  
 SSG、Static Site Generator と 呼ばれるツールを使うことが多い
@@ -244,11 +244,11 @@ StaticGen - .url[.small[[https://www.staticgen.com](https://www.staticgen.com/)]
 
 ---
 class: center, middle
-## AWS の サービス と JAMStack の 対応 .english[
-  Mapping AWS Services to JAMStack
+## AWS の サービス と JAMstack の 対応 .english[
+  Mapping AWS Services to JAMstack
 ]
 ---
-### AWS と JAMStack の 構成要素
+### AWS と JAMstack の 構成要素
 - **クライアントサイド JavaScript**  
   HTTP リクエスト/レスポンスのようなダイナミックな処理は、完全にクライアント上で実行する  
   - Amplify フレームワーク ‐ .url[[https://aws.amazon.com/amplify](https://aws.amazon.com/amplify/)]  
@@ -267,7 +267,7 @@ class: center, middle
 
 ---
 layout: false
-### AWS と JAMStack の ベストプラクティス
+### AWS と JAMstack の ベストプラクティス
 .ui.grid[
 .seven.wide.column[
 - **CDN に 全部配置されている**  
@@ -294,29 +294,29 @@ layout: false
 ---
 ### 言わば
 .caption[
-  **AWS と JAMStack は 相性が良い！**
+  **AWS と JAMstack は 相性が良い！**
 ]
 ---
-### AWS x JAMStack アーキテクチャ - Full AWS！！
+### AWS x JAMstack アーキテクチャ - Full AWS！！
 .img-arch-01[![](../contents/2019-jaws-days/images/arch-01.png)]
 ---
-### AWS x JAMStack アーキテクチャ - よく使うパターン
+### AWS x JAMstack アーキテクチャ - よく使うパターン
 .img-arch-02[![](../contents/2019-jaws-days/images/arch-02.png)]
 ---
-### AWS x JAMStack アーキテクチャ - ウェブサイト
+### AWS x JAMstack アーキテクチャ - ウェブサイト
 .img-arch-03[![](../contents/2019-jaws-days/images/arch-03.png)]
 ---
-### AWS x JAMStack アーキテクチャ - WordPress リニューアル
+### AWS x JAMstack アーキテクチャ - WordPress リニューアル
 .img-arch-04[![](../contents/2019-jaws-days/images/arch-04.png)]
 
 
 ---
 class: center, middle
-## JAMStack の 可能性 .english[
-  Possibility of JAMStack
+## JAMstack の 可能性 .english[
+  Possibility of JAMstack
 ]
 ---
-### JAMStack の 可能性
+### JAMstack の 可能性
 - **情報発信サイト**  
   公式サイト、ブログ、ドキュメント、etc...  
   例えば Riotz.works の 公式サイトは Gridsome 製  
@@ -343,7 +343,7 @@ class: center, middle
 CGM や コンテンツの変化が激しく、かつ そのコンテンツ の SEO が 大事な場合は厳しい  
 SEO 関連 の ヘッダー は HTML 出なければならない (Google は JavaScript が 読めるらしいけど)  
 
-JAMStack 要件 の 事前ビルド が、コンテンツの変化に追随できない場合に無理が生じる  
+JAMstack 要件 の 事前ビルド が、コンテンツの変化に追随できない場合に無理が生じる  
 このようなケースでは SSR(Server Side Rendering) が 必要  
 
 とはいえ、何か他のケースは... 🤔
@@ -365,16 +365,16 @@ class: wrapup
 ### まとめ .english[
   Wrap-up
 ]
-- **JAMStack は ウェブサイト や アプリ を 構築するための新しい方法**  
+- **JAMstack は ウェブサイト や アプリ を 構築するための新しい方法**  
   ⇒ より良いパフォーマンス、より高いセキュリティ、  
   　 より安価で容易なスケーリング、より良質な開発者エクスペリエンス
 
-- **AWS と JAMStack は 相性が良い**  
-  ⇒ JAMStack の 要件、ベストプラクティス を AWS は 備えてる  
+- **AWS と JAMstack は 相性が良い**  
+  ⇒ JAMstack の 要件、ベストプラクティス を AWS は 備えてる  
 
-- **JAMStack と 名前が付き、認識されることで、伝わる**  
+- **JAMstack と 名前が付き、認識されることで、伝わる**  
   ⇒ API Gateway と Lambda というのを使った REST API で～、  
-  　 でなく "サーバレス" で REST API！、伝わる、JAMStack も これから   
+  　 でなく "サーバレス" で REST API！、伝わる、JAMstack も これから   
 
 
 
@@ -400,8 +400,8 @@ class: appendix
 - [Shiftup! JP_Getshifter Vol3！ 振り返り、Shifterのヘッドレス CMS 化に思いを馳せる](https://riotz.works/articles/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3/)
 
 **テーマ関連記事**
-- [JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
-- [Riots.works での JAMStack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
+- [JAMstack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
+- [Riots.works での JAMstack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
 
 
 

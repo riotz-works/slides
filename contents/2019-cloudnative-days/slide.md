@@ -23,8 +23,8 @@ class: preface, agenda
 3. ピタゴラ装置を組み立てる 魅力 .english[
   To assemble Pythagorean Devices .small[(like the Rube Goldberg machine)]
 ]
-4. JAMStack な サイト管理の 魅力 .english[
-  To manage a site with JAMStack
+4. JAMstack な サイト管理の 魅力 .english[
+  To manage a site with JAMstack
 ]
 5. まとめ .english[
   Wrap-up
@@ -390,12 +390,12 @@ class: center, middle
 
 ---
 class: center, middle
-## JAMStack な サイト管理の 魅力 .english[
-  To manage a site with JAMStack
+## JAMstack な サイト管理の 魅力 .english[
+  To manage a site with JAMstack
 ]
 ---
-### JAMStack とは？
-JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
+### JAMstack とは？
+JAMstack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 .img-jamstack-def[![](../contents/2019-jaws-days/images/01.png)]
 
 #### 最近 話題になりつつあり、フロントエンドやウェブの開発などで見聞きする機会が多いキーワード
@@ -404,7 +404,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 - **J**avaScript, **A**PIs, **M**arkup の 頭文字 **JAM** の Stack
 
 ---
-### JAMStack の アーキテクチャのイメージ
+### JAMstack の アーキテクチャのイメージ
 .img-jamstack-all[![](../contents/2019-cloudnative-days/images/07.png)]
 
 .text-jamstack-all[
@@ -413,7 +413,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 
 ---
-### JAMStack の メリット
+### JAMstack の メリット
 - **より良いパフォーマンス**  
   CDN を 活用することによる高速化  
   HTML 生成の省略による高速化  
@@ -432,23 +432,23 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 
 ---
-### 「ラップ、タップ、アップ 🎶」の JAMStack x サーバーレス
+### 「ラップ、タップ、アップ 🎶」の JAMstack x サーバーレス
 .img-arch-02[![](../contents/2019-cloudnative-days/images/01.png)]
 ---
-### 「Riotz.works ウェブサイト」の JAMStack x サーバーレス
+### 「Riotz.works ウェブサイト」の JAMstack x サーバーレス
 .img-arch-02[![](../contents/2019-cloudnative-days/images/02.png)]
 ---
-### 「Riotz.works Slides」の ~~JAMStack~~ x サーバーレス
+### 「Riotz.works Slides」の ~~JAMstack~~ x サーバーレス
 .img-arch-02[![](../contents/2019-cloudnative-days/images/03.png)]
 ---
-### 「Serverless WordPress, Shifter」の JAMStack x サーバーレス
+### 「Serverless WordPress, Shifter」の JAMstack x サーバーレス
 - WordPress の サービス
 - コンテンツ編集時にコンテナーを起動
 - コンテンツ作成後に静的サイトを生成
 
 .arrow-left[.text-arrow-large[.fa[.fa-angle-double-down[]]]]
 
-#### JAMStack の メリットを享受でき、  
+#### JAMstack の メリットを享受でき、  
 #### それでいて WordPress の使いやすさも
 - より良いパフォーマンス
 - より高いセキュリティ
@@ -481,7 +481,7 @@ class: wrapup
 
 - **ピタゴラ装置を組み立てる 魅力** ⇒ .small[単機能を積み重ねて処理を流すシンプルさ]
 
-- **JAMStack な サイト管理の 魅力** ⇒ .small[フロントも含めて、まるっとサーバーレス]
+- **JAMstack な サイト管理の 魅力** ⇒ .small[フロントも含めて、まるっとサーバーレス]
 
 
 ---

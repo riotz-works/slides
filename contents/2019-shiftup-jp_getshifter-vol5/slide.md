@@ -56,7 +56,7 @@ layout: false
   アイデアを高速で形するアーキとして .marker[**サーバーレスが大のお気に入り**]。何かを作る時もサーバーレスでいけるか最初に考える。
 
   またフロントの技術として Vue.js/Nuxt.js の 高速な開発力に、  
-  .marker[**すごいぜ Vue.js/Nuxt.js！！**] と、.marker[**JAMStack なフロントに興味津々**]。
+  .marker[**すごいぜ Vue.js/Nuxt.js！！**] と、.marker[**JAMstack なフロントに興味津々**]。
 
   ウェブサービスやアプリ開発だけでなく Raspberry Pi などの電子工作や Slack などのチャットボットなどと、いろいろと手を出す。
 ]
@@ -157,8 +157,8 @@ Serverless = フルマネージド という形で解決！
 
 
 ---
-### Shifter が もたらした 新世界２、JAMStack WordPress .small[(1/2)]
-WordPress サイト を 静的化し CDN から配信 = JAMStack  
+### Shifter が もたらした 新世界２、JAMstack WordPress .small[(1/2)]
+WordPress サイト を 静的化し CDN から配信 = JAMstack  
 ⇒ 最近 話題になりつつある、ウェブサイト や アプリ を 構築するための新しいアーキテクチャ  
 .arrow-left-center[.text-arrow-large[.fa[.fa-angle-double-down[]]]]
 
@@ -180,8 +180,8 @@ WordPress サイト を 静的化し CDN から配信 = JAMStack
 
 
 ---
-### Shifter が もたらした 新世界２、JAMStack WordPress .small[(2/2)]
-WordPress サイト を 静的化し CDN から配信 = JAMStack  
+### Shifter が もたらした 新世界２、JAMstack WordPress .small[(2/2)]
+WordPress サイト を 静的化し CDN から配信 = JAMstack  
 ⇒ 最近 話題になりつつある、ウェブサイト や アプリ を 構築するための新しいアーキテクチャ  
 .arrow-left-center[.text-arrow-large[.fa[.fa-angle-double-down[]]]]
 
@@ -210,15 +210,15 @@ class: center, middle
   A further world created by Shifter + SSG
 ]
 ---
-### JAMStack の 考え と Shifter の JAMStack WordPress について
-#### JAMStack の 要件
+### JAMstack の 考え と Shifter の JAMstack WordPress について
+#### JAMstack の 要件
 - ダイナミックな処理は、完全にクライアント上で実行されるようにする
 - 全てのサーバサイド処理、DB 処理は HTTPS で アクセスできる再利用可能な Web API にする
 - HTML は サイトジェネレータ で 事前ビルドし生成している 必要(should) がある
 
 .arrow-left-center[.text-arrow-large[.fa[.fa-angle-double-down[]]]]
 
-#### Shifter, JAMStack WordPress
+#### Shifter, JAMstack WordPress
 - WordPress を そのまま HTML 化する
 - レイアウトについては WordPress Theme
 - サーバーサイド処理が、DB 処理が  
@@ -232,7 +232,7 @@ class: center, middle
 
 ---
 ### WordPress Theme、それは "Better Developer Experience" ？
-#### JAMStack の メリット "より良質な開発者エクスペリエンス" は 満たせているか？
+#### JAMstack の メリット "より良質な開発者エクスペリエンス" は 満たせているか？
 
 - プログラムとデータとレイアウトが一体となっているため厳しい
 
@@ -243,7 +243,7 @@ class: center, middle
 .arrow-left-center[.text-arrow-large[.fa[.fa-angle-double-down[]]]]
 
 .text-large-32[
-  WordPress Theme 技術に加え、.marker[JAMStack 技術でも開発できるようにしたい]
+  WordPress Theme 技術に加え、.marker[JAMstack 技術でも開発できるようにしたい]
   Vue.js(Gridsome, Nuxt.js)、React(GatsbyJS, Next.js) などを使いたい
 ]
 
@@ -288,10 +288,10 @@ class: center, middle
 - Shifter による静的サイト生成はあるが、敢えて Headless CMS として使う ⇒ SSG 利用
 
 #### SSG で WordPress の ウェブフロントを作る
-- ウェブフロントには React や Vue.js を ベースとした JAMStack の良い開発技術がある
-- データ と UI/UX の分離、JAMStack の "より良質な開発者エクスペリエンス" を 実現する
+- ウェブフロントには React や Vue.js を ベースとした JAMstack の良い開発技術がある
+- データ と UI/UX の分離、JAMstack の "より良質な開発者エクスペリエンス" を 実現する
 
-**⇒ JAMStack のコンテンツ管理を見ていると Headless CMS の潮流を感じるが、**  
+**⇒ JAMstack のコンテンツ管理を見ていると Headless CMS の潮流を感じるが、**  
 **　 CMS として考えると結局のところ WordPress が優秀で、その SaaS、Shifter が望ましい**  
 
 .img-headlesscms[![](../contents/2019-shiftup-jp_getshifter-vol5/images/10.png)]
@@ -332,9 +332,9 @@ class: wrapup
 - **Shifter + SSG により WordPress Theme でない ウェブフロントを構築**  
   ⇒ ウェブ・フロントエンドの技術および技術者が、そのままに参入  
 
-- **.marker[Headless WordPress SaaS + SSG/JAMStack の 世界(= 市場) 創出へ]**  
+- **.marker[Headless WordPress SaaS + SSG/JAMstack の 世界(= 市場) 創出へ]**  
   ⇒ WordPress SaaS による運用の負荷低減と  
-  　 SSG/JAMStack によるモダン ウェブフロントの開発   
+  　 SSG/JAMstack によるモダン ウェブフロントの開発   
 
 
 
@@ -356,13 +356,13 @@ class: appendix
 ### Appendix
 **本イベント関連記事**
 - [Shiftup! JP_Getshifter Vol3！ 振り返り、Shifterのヘッドレス CMS 化に思いを馳せる](https://riotz.works/articles/lulzneko/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3/)
-- [Shiftup! JP_Getshifter Vol3！ にて「JAMStack なサーバーレス・ウェブフロント」について発表](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
+- [Shiftup! JP_Getshifter Vol3！ にて「JAMstack なサーバーレス・ウェブフロント」について発表](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
 - [Shiftup! JP_Getshifter Vol3！ 参加レポート](https://riotz.works/articles/lulzneko/2019/04/03/take-seminar-on-shiftup-vol3/)
 
 **テーマ関連記事**
-- [JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
+- [JAMstack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
 - [Go_SaaS 三種の神器オンボーディングセミナー 1 〜東京〜 参加レポート](https://riotz.works/articles/lulzneko/2019/07/09/take-seminar-on-go-saas1-in-tokyo/)
-- [Riots.works での JAMStack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
+- [Riots.works での JAMstack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
 
 
 

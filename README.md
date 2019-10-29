@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+- [WordPress と SSG(Static Site Generator) が織りなす、WordPress ウェブフロントの新世界](2019-wordcamp-tokyo) .event-name[@WordCamp Tokyo 2019]
+
 - [Vuetify で楽しむ PWA 開発](2019-vuetify-meetup-1) .event-name[@Vuetify Meetup #1]
 
 - [Shifter ＋ SSG(Static Site Generator) が生み出す、新しい WordPress の世界](2019-shiftup-jp_getshifter-vol5) .event-name[@Shiftup! JP_Getshifter Vol5]
@@ -9,17 +11,17 @@ class: cover
 
 - [Web-NFC の PWA で 簡単タイムレコーダー「ツカエタルヒの記録」](2019-attendance-tech-lt) .event-name[@「勤怠を自動化する技術」LT Night]
 
-- [Gridsome で作る JAMStack な サーバーレス Web Front](2019-javascript-matsuri) .event-name[@初夏のJavaScript祭]
+- [Gridsome で作る JAMstack な サーバーレス Web Front](2019-javascript-matsuri) .event-name[@初夏のJavaScript祭]
 
-- [サーバーレスなウェブフロントを実現する JAMStack](2019-serverless-meetup-tokyo12) .event-name[@Serverless Meetup Tokyo #12]
+- [サーバーレスなウェブフロントを実現する JAMstack](2019-serverless-meetup-tokyo12) .event-name[@Serverless Meetup Tokyo #12]
 
 - [パーソナルニュースの配信と交換によって爆速で仲良くなるアプリ「📰NEWʑ Link」](2019-spajam-qualification) @SPAJAM 2019 東京A予選 gumi
 
-- [JAMStackで構築・運用するサーバーレスなウェブフロント](2019-shiftup-jp_getshifter-vol3) .event-name[@Shiftup! JP_Getshifter Vol3]
+- [JAMstackで構築・運用するサーバーレスなウェブフロント](2019-shiftup-jp_getshifter-vol3) .event-name[@Shiftup! JP_Getshifter Vol3]
 
 - [「ミツカルヘアサロン💇」 〜個人が提案する時代に向けたアプリ～](2019-cto-vs-hackers-hackathon) .event-name[@CTO vs Hackers ハッカソン]
 
-- [AWS x JAMStack で構築・運用するサーバーレスな Web Front](2019-jaws-days) .event-name[@JAWS DAYS 2019]
+- [AWS x JAMstack で構築・運用するサーバーレスな Web Front](2019-jaws-days) .event-name[@JAWS DAYS 2019]
 
 - [サーバーレスで最高に楽しめるアプリ開発](2019-devsumi) .event-name[@Developers Summit 2019]
 

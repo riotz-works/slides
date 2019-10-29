@@ -1,10 +1,10 @@
-name: サーバーレスなウェブフロントを実現する JAMStack
+name: サーバーレスなウェブフロントを実現する JAMstack
 count: false
 class: cover, center, middle
-# サーバーレスなウェブフロントを実現する JAMStack
+# サーバーレスなウェブフロントを実現する JAMstack
 .event-logo[[![](../assets/logo/serverlesstokyo12.jpg)](https://serverless.connpass.com/event/130509/)]
 .english[
-  JAMStack, an architecture to realizes serverless web front
+  JAMstack, an architecture to realizes serverless web front
 ]
 .footer[[@Serverless Meetup Tokyo #12](https://serverless.connpass.com/event/130509/) / 20 min]
 
@@ -16,14 +16,14 @@ class: preface, agenda
 1. 今日の話の背景 .english[
   Background of today's story
 ]
-2. JAMStack とは .english[
-  What is JAMStack
+2. JAMstack とは .english[
+  What is JAMstack
 ]
 3. アーキテクチャ紹介 .english[
-  Introducing the JAMStack architecture
+  Introducing the JAMstack architecture
 ]
-4. JAMStack の 可能性 .english[
-  Possibility of JAMStack
+4. JAMstack の 可能性 .english[
+  Possibility of JAMstack
 ]
 5. まとめ .english[
   Wrap-up
@@ -83,8 +83,8 @@ class: center, middle
   Background of today's story
 ]
 ---
-### どうして、JAMStack .small[(ジャムスタック)] の話
-- JAMStack 最近話題になりつつあり、フロントエンドやウェブの開発などで見聞きします
+### どうして、JAMstack .small[(ジャムスタック)] の話
+- JAMstack 最近話題になりつつあり、フロントエンドやウェブの開発などで見聞きします
 
 - 2018年の Qiita Advent Calendar に『[JAMstack Advent Calendar 2018](https://qiita.com/advent-calendar/2018/jamstack)』登場
 
@@ -105,22 +105,22 @@ class: center, middle
   - それは CDN の話？ テンプレートエンジンは？ 💎 🍰 ☕ 🐪 🐍 .small[etc...]
   - どれも素晴らしい。しかしながら **必要ですよね、インスタンス**。
 
-.text-large-32[**フロントも含めて、サーバーレスにしましょう！ JAMStack でね！！**]
+.text-large-32[**フロントも含めて、サーバーレスにしましょう！ JAMstack でね！！**]
 .img-ref-slides[![](../contents/2019-serverless-meetup-tokyo12/images/01.png)]
 
 
 
 ---
 class: center, middle
-## JAMStack とは .english[
-  What is JAMStack
+## JAMstack とは .english[
+  What is JAMstack
 ]
 
 
 
 ---
-### JAMStack って、なに？
-JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
+### JAMstack って、なに？
+JAMstack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 .img-jamstack-def[![](../contents/2019-jaws-days/images/01.png)]
 - ウェブサイト や アプリ を 構築するための新しいアーキテクチャ
 - **クライアントサイドJavaScript**、**再利用可能なAPI**、**構築済みのマークアップ** が ベースとなる
@@ -128,7 +128,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 
 ---
-### どうすると JAMStack ？
+### どうすると JAMstack ？
 定義: クライアントサイドJavaScript、再利用可能なAPI、構築済みのマークアップ が **ベース**
 .arrow-left-center[.text-arrow-medium[.fa[.fa-angle-double-down[]]]]
 
@@ -182,7 +182,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 
 ---
-### JAMStack の メリット
+### JAMstack の メリット
 - **より良いパフォーマンス**  
   CDN を 活用することによる高速化  
   HTML 生成の省略による高速化  
@@ -202,7 +202,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 ---
 layout: false
-### JAMStack プロジェクト の ベストプラクティス
+### JAMstack プロジェクト の ベストプラクティス
 .ui.grid[
 .seven.wide.column[
 - **CDN に 全部配置されている**  
@@ -216,7 +216,7 @@ layout: false
 ]
 .seven.wide.column[
 - **自動ビルド**  
-  JAMStack は 特に 事前構築済みの HTML を 使うため、プロセスを自動化しておき、ビルド＆デプロイの負担を下げる  
+  JAMstack は 特に 事前構築済みの HTML を 使うため、プロセスを自動化しておき、ビルド＆デプロイの負担を下げる  
 
 - **アトミックなデプロイ**  
   不整合を避けるに全ファイルがアップロードされるまで変更が行われないようにする  
@@ -227,7 +227,7 @@ layout: false
 
 
 ---
-### JAMStack を 構築する 静的サイトジェネレータ
+### JAMstack を 構築する 静的サイトジェネレータ
 定義: **構築済みのマークアップ**、HTML は .marker[サイトジェネレータ や ビルドツール で] 事前生成する  
 SSG、Static Site Generator と 呼ばれるツールを使うことが多い
 
@@ -259,23 +259,23 @@ StaticGen - .url[.small[[https://www.staticgen.com](https://www.staticgen.com/)]
 ---
 class: center, middle
 ## アーキテクチャ紹介 .english[
-  Introducing the JAMStack architecture
+  Introducing the JAMstack architecture
 ]
 ---
-### AWS x JAMStack アーキテクチャ - よく使うパターン
+### AWS x JAMstack アーキテクチャ - よく使うパターン
 .img-arch-02[![](../contents/2019-jaws-days/images/arch-02.png)]
 ---
-### AWS x JAMStack アーキテクチャ - ウェブサイト
+### AWS x JAMstack アーキテクチャ - ウェブサイト
 .img-arch-03[![](../contents/2019-jaws-days/images/arch-03.png)]
 
 
 ---
 class: center, middle
-## JAMStack の 可能性 .english[
-  Possibility of JAMStack
+## JAMstack の 可能性 .english[
+  Possibility of JAMstack
 ]
 ---
-### JAMStack の 可能性
+### JAMstack の 可能性
 - **情報発信サイト**  
   公式サイト、ブログ、ドキュメント、etc...  
   様々なケースで、このようなサイトは必要  
@@ -301,7 +301,7 @@ class: center, middle
 CGM や コンテンツの変化が激しく、かつ そのコンテンツ の SEO が 大事な場合は厳しい  
 SEO 関連 の ヘッダー は HTML 出なければならない (Google は JavaScript が 読めるらしいけど)  
 
-JAMStack 要件 の 事前ビルド が、コンテンツの変化に追随できない場合に無理が生じる  
+JAMstack 要件 の 事前ビルド が、コンテンツの変化に追随できない場合に無理が生じる  
 このようなケースでは SSR(Server Side Rendering) が 必要  
 
 e.g.  
@@ -325,16 +325,16 @@ class: wrapup
 ### まとめ .english[
   Wrap-up
 ]
-- **JAMStack は ウェブサイト や アプリ を 構築するための新しい方法**  
+- **JAMstack は ウェブサイト や アプリ を 構築するための新しい方法**  
   ⇒ より良いパフォーマンス、より高いセキュリティ、  
   　 より安価で容易なスケーリング、より良質な開発者エクスペリエンス
 
 - **フロントも含めて、まるっとサーバーレス**  
   ⇒ 「CloudFront/S3 で～」、でなくアーキテクチャ、方法論として  
 
-- **JAMStack と 名前が付き、認識されることで、伝わる**  
+- **JAMstack と 名前が付き、認識されることで、伝わる**  
   ⇒ API Gateway と Lambda というのを使った REST API で～、  
-  　 でなく "サーバレス" で REST API！、伝わる、JAMStack も これから   
+  　 でなく "サーバレス" で REST API！、伝わる、JAMstack も これから   
 
 
 
@@ -355,11 +355,11 @@ class: bottom, center, backcover
 class: appendix
 ### Appendix
 **本イベント関連記事**
-- [Serverless Meetup Tokyo 12 にて「サーバーレスなウェブフロントを実現する JAMStack」について発表をしました](https://riotz.works/articles/2019/05/27/made-presentation-about-jamstack-at-serverless-meetup-tokyo-12/)
+- [Serverless Meetup Tokyo 12 にて「サーバーレスなウェブフロントを実現する JAMstack」について発表をしました](https://riotz.works/articles/2019/05/27/made-presentation-about-jamstack-at-serverless-meetup-tokyo-12/)
 
 **テーマ関連記事**
-- [JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
-- [Riots.works での JAMStack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
+- [JAMstack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
+- [Riots.works での JAMstack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
 
 
 ---

@@ -1,11 +1,11 @@
-name: Gridsome で作る JAMStack な サーバーレス Web Front
+name: Gridsome で作る JAMstack な サーバーレス Web Front
 count: false
 class: cover, center, middle
 # Gridsome で作る 
-# JAMStack な サーバーレス Web Front
+# JAMstack な サーバーレス Web Front
 .event-logo[[![](../assets/logo/js-matsuri.png)](https://javascript-fes.doorkeeper.jp/events/90894)]
 .english[
-  JAMStack Serverless Web Front developed by Gridsome
+  JAMstack Serverless Web Front developed by Gridsome
 ]
 .footer[[@初夏のJavaScript祭 in メンバーズキャリア](https://javascript-fes.doorkeeper.jp/events/90894) / 20 min]
 
@@ -14,17 +14,17 @@ class: cover, center, middle
 count: false
 class: preface, agenda
 ### Agenda
-1. JAMStack とは .english[
-  What is JAMStack
+1. JAMstack とは .english[
+  What is JAMstack
 ]
 2. アーキテクチャ紹介 .english[
-  Introducing the JAMStack architecture
+  Introducing the JAMstack architecture
 ]
-3. Gridsome で作る JAMStack サイト .english[
-  JAMStack site developed by Gridsome
+3. Gridsome で作る JAMstack サイト .english[
+  JAMstack site developed by Gridsome
 ]
-4. JAMStack の 可能性 .english[
-  Possibility of JAMStack
+4. JAMstack の 可能性 .english[
+  Possibility of JAMstack
 ]
 5. まとめ .english[
   Wrap-up
@@ -80,11 +80,11 @@ layout: false
 
 ---
 class: center, middle
-## JAMStack とは .english[
-  What is JAMStack
+## JAMstack とは .english[
+  What is JAMstack
 ]
 ---
-### JAMStack .small[(ジャムスタック)]？
+### JAMstack .small[(ジャムスタック)]？
 - 最近 話題になりつつあり、フロントエンドやウェブの開発などで見聞きする機会が多いかも
 
 - 2018年 の Qiita Advent Calendar に『[JAMstack Advent Calendar 2018](https://qiita.com/advent-calendar/2018/jamstack)』登場
@@ -95,15 +95,15 @@ class: center, middle
 
 
 ---
-### JAMStack って、なに？ .small[(1/2)]
-JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
+### JAMstack って、なに？ .small[(1/2)]
+JAMstack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 .img-jamstack-def[![](../contents/2019-jaws-days/images/01.png)]
 - ウェブサイト や アプリ を 構築するための新しいアーキテクチャ
 - **クライアントサイドJavaScript**、**再利用可能なAPI**、**構築済みのマークアップ** が ベースとなる
 - **J**avaScript, **A**PIs, **M**arkup の 頭文字 **JAM** の Stack
 ---
-### JAMStack って、なに？ .small[(2/2)]
-JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
+### JAMstack って、なに？ .small[(2/2)]
+JAMstack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 .img-jamstack-def[![](../contents/2019-jaws-days/images/01.png)]
 - ウェブサイト や アプリ を 構築するための新しいアーキテクチャ
 - .marker[**クライアントサイドJavaScript**]、**再利用可能なAPI**、**構築済みのマークアップ** が ベースとなる
@@ -112,7 +112,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 
 ---
-### どうすると JAMStack？
+### どうすると JAMstack？
 定義: クライアントサイドJavaScript、再利用可能なAPI、構築済みのマークアップ が **ベース**
 .arrow-left-center[.text-arrow-medium[.fa[.fa-angle-double-down[]]]]
 
@@ -131,7 +131,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 
 ---
-### どうすると JAMStack？ - アーキテクチャのイメージ
+### どうすると JAMstack？ - アーキテクチャのイメージ
 .img-jamstack-all[![](../contents/2019-jaws-days/images/05.png)]
 
 .footnote[
@@ -140,7 +140,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 
 ---
-### JAMStack の メリット
+### JAMstack の メリット
 - **より良いパフォーマンス**  
   CDN を 活用することによる高速化  
   HTML 生成の省略による高速化  
@@ -160,7 +160,7 @@ JAMStack 公式サイト - .url[[https://jamstack.org](https://jamstack.org/)]
 
 ---
 layout: false
-### JAMStack プロジェクト の ベストプラクティス
+### JAMstack プロジェクト の ベストプラクティス
 .ui.grid[
 .seven.wide.column[
 - **CDN に 全部配置されている**  
@@ -174,7 +174,7 @@ layout: false
 ]
 .seven.wide.column[
 - **自動ビルド**  
-  JAMStack は 特に 事前構築済みの HTML を 使うため、プロセスを自動化しておき、ビルド＆デプロイの負担を下げる  
+  JAMstack は 特に 事前構築済みの HTML を 使うため、プロセスを自動化しておき、ビルド＆デプロイの負担を下げる  
 
 - **アトミックなデプロイ**  
   不整合を避けるに全ファイルがアップロードされるまで変更が行われないようにする  
@@ -185,7 +185,7 @@ layout: false
 
 
 ---
-### JAMStack を 構築する 静的サイトジェネレータ .small[(1/2)]
+### JAMstack を 構築する 静的サイトジェネレータ .small[(1/2)]
 定義: **構築済みのマークアップ**、HTML は .marker[サイトジェネレータ や ビルドツール で] 事前生成する  
 SSG、Static Site Generator と 呼ばれるツールを使うことが多い
 
@@ -211,7 +211,7 @@ StaticGen - .url[.small[[https://www.staticgen.com](https://www.staticgen.com/)]
 ]]]
 
 ---
-### JAMStack を 構築する 静的サイトジェネレータ .small[(2/2)]
+### JAMstack を 構築する 静的サイトジェネレータ .small[(2/2)]
 定義: **構築済みのマークアップ**、HTML は .marker[サイトジェネレータ や ビルドツール で] 事前生成する  
 SSG、Static Site Generator と 呼ばれるツールを使うことが多い
 
@@ -244,7 +244,7 @@ StaticGen - .url[.small[[https://www.staticgen.com](https://www.staticgen.com/)]
 ---
 class: center, middle
 ## アーキテクチャ紹介 .english[
-  Introducing the JAMStack architecture
+  Introducing the JAMstack architecture
 ]
 ---
 ### Nuxt.js アーキテクチャ - アプリ・パターン
@@ -257,8 +257,8 @@ class: center, middle
 
 ---
 class: center, middle
-## Gridsome で作る JAMStack サイト .english[
-  JAMStack site developed by Gridsome
+## Gridsome で作る JAMstack サイト .english[
+  JAMstack site developed by Gridsome
 ]
 ---
 ### Gridsome とは
@@ -266,7 +266,7 @@ Gridsome 公式サイト - .url[[https://gridsome.org/](https://gridsome.org/)]
 .img-border[![](../contents/2019-javascript-matsuri/images/03.png)]
 .img-release[![](../contents/2019-javascript-matsuri/images/05.png)]
 - Vue.js ベースのウェブサイトやアプリを作るためのフレームワーク
-- JAMStack サイト や PWA を容易に作ることができる
+- JAMstack サイト や PWA を容易に作ることができる
 - 速い！ "builds ultra performance automatically", "almost perfect page speed scores by default."  
   構築済み HTML、コード分割、PRPL パターン、プリフェッチ、プログレッシブ画像、Vue.js SPA...
 
@@ -274,7 +274,7 @@ Gridsome 公式サイト - .url[[https://gridsome.org/](https://gridsome.org/)]
 
 ---
 ### Gridsome w/GraphQL
-GraphQL で、あらゆるデータソースを "静的化 = JAMStack" にして、さまざまな環境へデプロイできる
+GraphQL で、あらゆるデータソースを "静的化 = JAMstack" にして、さまざまな環境へデプロイできる
 
 .img-graphql[![](../contents/2019-javascript-matsuri/images/04.png)]
 
@@ -294,8 +294,8 @@ layout: false
   静的 PWA を生成、重要な HTML/CSS/JS のみ最初にロード、以降はプリフェッチ  
 ]
 .seven.wide.column[
-- **JAMStack を 構築**  
-  .marker[Web の 未来は JAMStack]、Gridsome は 驚くほど高速でモダンな Web エクスペリエンスを生み出す  
+- **JAMstack を 構築**  
+  .marker[Web の 未来は JAMstack]、Gridsome は 驚くほど高速でモダンな Web エクスペリエンスを生み出す  
 
 - **シンプルで安全なデプロイ**  
   ファイルのみのサイトで構成、全体を CDN にデプロイでき、数千から数百万のリクエストを容易に処理する  
@@ -390,11 +390,11 @@ query {
 
 ---
 class: center, middle
-## JAMStack の 可能性 .english[
-  Possibility of JAMStack
+## JAMstack の 可能性 .english[
+  Possibility of JAMstack
 ]
 ---
-### JAMStack の 可能性
+### JAMstack の 可能性
 - **情報発信サイト**  
   公式サイト、ブログ、ドキュメント、etc...  
   様々なケースで、このようなサイトは必要  
@@ -421,7 +421,7 @@ class: center, middle
 CGM や コンテンツの変化が激しく、かつ そのコンテンツ の SEO/OGP が 大事な場合は厳しい  
 SEO/OGP 関連 の ヘッダー は HTML 出なければならない (Google は JavaScript が 読めるらしいけど)  
 
-JAMStack 要件 の 事前ビルド が、コンテンツの変化に追随できない場合に無理が生じる  
+JAMstack 要件 の 事前ビルド が、コンテンツの変化に追随できない場合に無理が生じる  
 このようなケースでは SSR(Server Side Rendering) が 必要  
 
 e.g.  
@@ -446,16 +446,16 @@ class: wrapup
 ### まとめ .english[
   Wrap-up
 ]
-- **JAMStack は ウェブサイト や アプリ を 構築するための新しい方法**  
+- **JAMstack は ウェブサイト や アプリ を 構築するための新しい方法**  
   ⇒ より良いパフォーマンス、より高いセキュリティ、  
   　 より安価で容易なスケーリング、より良質な開発者エクスペリエンス
 
-- **Gridsome をはじめ、JavaScript は JAMStack に強い！**  
-  ⇒JAMStack は JavaScript 祭り、素晴らしいツールがたくさんある  
+- **Gridsome をはじめ、JavaScript は JAMstack に強い！**  
+  ⇒JAMstack は JavaScript 祭り、素晴らしいツールがたくさんある  
 
-- **JAMStack と 名前が付き、認識されることで、伝わる**  
+- **JAMstack と 名前が付き、認識されることで、伝わる**  
   ⇒ API Gateway と Lambda というのを使った REST API で～、  
-  　 でなく "サーバレス" で REST API！、伝わる、JAMStack も これから   
+  　 でなく "サーバレス" で REST API！、伝わる、JAMstack も これから   
 
 
 
@@ -476,11 +476,11 @@ class: bottom, center, backcover
 class: appendix
 ### Appendix
 **本イベント関連記事**
-- [初夏のJavaScript祭 in メンバーズキャリアにて「Gridsome で作る JAMStack なサーバーレス Web Front」の発表をしました | Articles | Riotz.works](https://riotz.works/articles/2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/)
+- [初夏のJavaScript祭 in メンバーズキャリアにて「Gridsome で作る JAMstack なサーバーレス Web Front」の発表をしました | Articles | Riotz.works](https://riotz.works/articles/2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/)
 
 **テーマ関連記事**
-- [JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
-- [Riots.works での JAMStack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
+- [JAMstack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/)
+- [Riots.works での JAMstack の利用](https://riotz.works/articles/2019/01/29/how-jamstack-is-used-in-riots.works/)
 
 
 ---
