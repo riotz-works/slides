@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+- [個人やサークルとして応募する CfP、あるいは その思い切り](2019-cfp-study) .event-name[@プロポーザルの書き方を学ぼう - 登壇の技術を勉強する会]
+
 - [WordPress と SSG(Static Site Generator) が織りなす、WordPress ウェブフロントの新世界](2019-wordcamp-tokyo) .event-name[@WordCamp Tokyo 2019]
 
 - [Vuetify で楽しむ PWA 開発](2019-vuetify-meetup-1) .event-name[@Vuetify Meetup #1]
