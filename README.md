@@ -7,6 +7,8 @@ class: cover
 
 - [WordPress と SSG(Static Site Generator) が織りなす、WordPress ウェブフロントの新世界](2019-wordcamp-tokyo) .event-name[@WordCamp Tokyo 2019]
 
+- [１分間ショートピッチ ＠New Biz アイデアソン](2019-newbiz-ideathon) .event-name[@@New Biz アイデアソン [CLOSED]]
+
 - [Vuetify で楽しむ PWA 開発](2019-vuetify-meetup-1) .event-name[@Vuetify Meetup #1]
 
 - [Shifter ＋ SSG(Static Site Generator) が生み出す、新しい WordPress の世界](2019-shiftup-jp_getshifter-vol5) .event-name[@Shiftup! JP_Getshifter Vol5]
