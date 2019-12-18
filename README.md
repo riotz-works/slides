@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+- [WordPress と SSG で作る、情報発信サイト の JAMstack な PWA](2019-pwa-night-11) .event-name[@PWA Night vol.11]
+
 - [JAMstack/PWA アーキテクチャの紹介](2019-web-frontend-study) .event-name[@ウェブフロント勉強会 [CLOSED]]
 
 - [個人やサークルとして応募する CfP、あるいは その思い切り](2019-cfp-study) .event-name[@プロポーザルの書き方を学ぼう - 登壇の技術を勉強する会]
