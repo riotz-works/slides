@@ -1,19 +1,20 @@
 {
   "name": "riotz-website-slides",
-  "version": "0.0.1",
   "private": true,
-  "devDependencies": {
-    "browser-sync": "*",
-    "gh-pages": "*",
-    "jsurl-cli": "*",
-    "shx": "*"
-  },
   "scripts": {
-    "clean": "npx rimraf dist",
+    "clean": "rimraf dist",
     "setup": "yarn install --ignore-optional",
     "dev": "browser-sync start --no-notify --server --files index.html README.md assets/**/* bio/**/* contents/**/* serverlessconf-tokyo-2018.html",
     "build": "shx mkdir -p ./dist && shx cp -r index.html 404.html favicon.ico README.md assets bio contents ./dist && shx cp -r contents/* ./dist",
     "deploy": "gh-pages -d dist -b master -m 'Update Site [ci skip]'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gh-pages": "^2.2.0",
+    "jsurl-cli": "^1.0.4",
+    "rimraf": "^3.0.1",
+    "shx": "^0.3.2"
   },
   "homepage": "https://github.com/riotz-works/slides#readme",
   "repository": {

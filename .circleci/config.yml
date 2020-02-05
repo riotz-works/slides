@@ -4,56 +4,63 @@ executors:
   default:
     working_directory: ~/workspace
     docker:
-      - image: circleci/node:10
+      - image: circleci/node
     environment:
       TZ: /usr/share/zoneinfo/Asia/Tokyo
 
 commands:
-  system_info:
+  attach:
+    steps:
+      - attach_workspace:
+          at: ~/workspace
+  persist:
+    steps:
+      - persist_to_workspace:
+          root: ~/workspace
+          paths:
+            - ./*
+
+jobs:
+  setup:
+    executor:
+      name: default
     steps:
       - run:
           name: System information
           command: |
             echo "Node $(node -v)"
             echo "Yarn v$(yarn -v)"
-  setup:
-    steps:
+      - checkout
       - restore_cache:
           name: Restore Yarn Package Cache
           key: yarn-packages-{{ checksum "yarn.lock" }}
       - run:
           name: Setup
-          command: yarn setup
+          command: |
+            yarn setup
       - save_cache:
           name: Save Yarn Package Cache
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
-
-
-jobs:
+      - persist
   build:
     executor:
       name: default
     steps:
-      - system_info
-      - checkout
-      - setup
+      - attach
       - run:
           name: Build
-          command: yarn build
+          command: |
+            yarn build
       - store_artifacts:
           path: dist
-      - persist_to_workspace:
-          root: ~/workspace
-          paths:
-            - ./*
+      - persist
   deploy:
     executor:
       name: default
     steps:
-      - attach_workspace:
-          at: ~/workspace
+      - attach
       - add_ssh_keys:
           fingerprints:
             - "19:c1:f4:85:71:70:19:cb:0a:09:70:03:ad:4b:08:22"
@@ -69,10 +76,11 @@ jobs:
 workflows:
   build-deploy-flow:
     jobs:
+      - setup
       - build:
-          context: website-articles
+          requires:
+            - setup
       - deploy:
-          context: website-articles
           requires:
             - build
           filters:
