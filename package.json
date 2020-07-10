@@ -6,7 +6,7 @@
     "setup": "yarn install --ignore-optional",
     "dev": "browser-sync start --no-notify --server --files index.html README.md assets/**/* bio/**/* contents/**/* serverlessconf-tokyo-2018.html",
     "build": "shx mkdir -p dist && shx cp -r index.html 404.html favicon.ico README.md assets bio contents dist && shx cp -r contents/* dist",
-    "deploy": "gh-pages -d dist -b master -m 'Update Site [ci skip]'"
+    "deploy": "gh-pages -t -d dist -b master -m 'Update Site [ci skip]'"
   },
   "dependencies": {},
   "devDependencies": {
