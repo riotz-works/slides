@@ -65,7 +65,7 @@ jobs:
       - deploy:
           command: |
             ssh-keyscan github.com >> ~/.ssh/known_hosts
-            yarn deploy -u "`git --no-pager show -s --format='%cn <%ce>' HEAD`"
+            yarn deploy -u "`git --no-pager show -s --format='%cn <%ce>' HEAD`" `[ "<< parameters.stage >>" = "none" ] && echo " -n"`
 
 
 workflows:
@@ -76,6 +76,14 @@ workflows:
           requires:
             - setup
       - deploy:
+          stage: none
+          requires:
+            - build
+          filters:
+            branches:
+              ignore: source
+      - deploy:
+          stage: dev
           requires:
             - build
           filters:
