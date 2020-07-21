@@ -61,6 +61,10 @@ jobs:
       - persist
   deploy:
     executor: default
+    parameters:
+      stage:
+        type: enum
+        enum: [ "none", "dev" ]
     steps:
       - attach
       - ssh_keys
