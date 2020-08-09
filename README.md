@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+<!-- - [Pact Contract Based Testing の手法を使ってサーバーレスの非同期テストのやりづらさを解決できるか](2020-serverless-meetup-japan-virtual-4) .event-name[@Serverless Meetup Japan Virtual #4] -->
+
 - [WordPress と SSG で作る、情報発信サイト の JAMstack な PWA](2019-pwa-night-11) .event-name[@PWA Night vol.11]
 
 - [JAMstack/PWA アーキテクチャの紹介](2019-web-frontend-study) .event-name[@ウェブフロント勉強会 [CLOSED]]
