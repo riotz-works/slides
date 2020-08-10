@@ -38,9 +38,8 @@ class: no-logo
 
 - 非同期処理のテストの難しさについて共感
 
-- 様々なテストの手法がある中、契約ベースの Pact が話題に
-
-- Pact を試してみることに
+- 様々なテストの手法がある中、契約（Contract）ベース Pact が話題になり、  
+  試してみることに・・！
 
 ---
 class: center, middle, no-logo
