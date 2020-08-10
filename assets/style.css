@@ -55,6 +55,15 @@ a:hover, a:active {
     position: absolute;
 }
 
+.event-logo-wide img {
+    width: 280px;
+    height: 160px;
+    top: 4px;
+    right: 4px;
+    position: absolute;
+}
+
+
 .english p {
     color: #666;
     font-family: 'Quicksand';

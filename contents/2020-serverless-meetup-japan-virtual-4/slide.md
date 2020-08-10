@@ -5,7 +5,7 @@ class: cover, center, middle
 ## Pact (Consumer-Driven Contract Testing) 
 ## を使ってサーバーレスの非同期テストの
 ## やりづらさを解決できるか
-
+.event-logo-wide[[![](../assets/logo/serverlesst-meetup-japan-virtual-4.png)](https://serverless.connpass.com/event/184557/)]
 .footer[[@Serverless Meetup Japan Virtual #4](https://serverless.connpass.com/event/184557/) / 20 min]
 
 ---
@@ -35,6 +35,16 @@ class: no-logo
 ]
 .footnote[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
+---
+### Pact を使ってみようとした経緯
+- ポッドキャスト「Serverless NOW」を一緒にやっている、  
+  Serverless Operations の堀家さんと、サーバーレスの非同期テストについて話していた
+
+- 非同期処理のテストの難しさについて共感
+
+- 様々なテストの手法がある中、契約ベースの Pact が話題に
+
+- Pact を試してみることに
 
 ---
 class: center, middle, no-logo
@@ -624,7 +634,13 @@ class: center, middle, no-logo
   - 実装は最小限に抑え、テストを行うスコープとポリシーを明確に定めておく
 
 ---
-class: center, middle, no-logo
+class: center, no-logo
+### Special Thanks
+.img-15[
+![](../contents/2020-serverless-meetup-japan-virtual-4/images/15.png)
+]
+---
+class: center, no-logo
 ### ポッドキャストやってます🎙️
 .img-16[
 ![](../contents/2020-serverless-meetup-japan-virtual-4/images/16.png)
