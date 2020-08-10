@@ -644,12 +644,42 @@ Apple/Google/Spotifyで配信中！
 
 https://serverless.fm
 
+---
+### 参考資料ー詳細が気になる方は要チェック
 
+.small[
+
+- Pact 公式サイト・ドキュメント  
+  🔗 https://pact.io
+
+
+- Pact JS  
+  🔗 https://github.com/pact-foundation/pact-js
+
+
+- Pact Broker  
+  🔗 https://github.com/pact-foundation/pact_broker
+
+
+- Pactflow  
+  🔗 https://pactflow.io
+
+
+- Contract Testing Serverless and Asynchronous Applications  
+  🔗 https://dius.com.au/2017/09/22/contract-testing-serverless-and-asynchronous-applications
+
+
+- 実践 Pact:マイクロサービス時代のテストツール  
+  🔗 https://techlife.cookpad.com/entry/2016/06/28/164247
+
+
+- Qiita | [Serverless] サーバーレスのテストの難しさと、契約ベースのテストについて  
+  🔗 https://qiita.com/hassaku_63/items/9cf9ee2c4f16622859c2
+]
 
 ---
 class: center, middle, no-logo
 ## ご静聴ありがとうございました。
-
 
 
 
