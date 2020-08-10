@@ -625,12 +625,6 @@ class: center, middle, no-logo
 
 ---
 class: center, middle, no-logo
-### Special Thanks
-.img-15[
-![](../contents/2020-serverless-meetup-japan-virtual-4/images/15.png)
-]
----
-class: center, middle, no-logo
 ### ポッドキャストやってます🎙️
 .img-16[
 ![](../contents/2020-serverless-meetup-japan-virtual-4/images/16.png)
