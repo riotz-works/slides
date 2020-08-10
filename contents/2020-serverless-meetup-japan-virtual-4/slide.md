@@ -19,10 +19,6 @@ class: preface, agenda
 - まとめ
 
 ---
-class: center, middle, no-logo
-## About us
-
----
 layout: false
 class: no-logo
 ### About us
