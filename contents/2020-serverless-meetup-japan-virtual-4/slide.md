@@ -31,10 +31,12 @@ class: no-logo
 ]
 .footnote[※ 発言や投稿は私的なものであり、所属する企業や組織とは関係ありません。また Riotz.works は 開発チームの名称です。  ]
 
+
 ---
 class: center, middle, no-logo
 ## サーバーレスなアプリケーションの
 ## 結合テストにおける悩み
+
 
 ---
 ### まずは、端的にみてモノリスな構成の WebAPI の場合
@@ -624,6 +626,7 @@ class: center, no-logo
 .img-15[
 ![](../contents/2020-serverless-meetup-japan-virtual-4/images/15.png)
 ]
+
 ---
 class: center, no-logo
 ### ポッドキャストやってます🎙️
