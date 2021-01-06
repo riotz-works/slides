@@ -1,6 +1,8 @@
 class: cover
 # Slides | Riotz.works
 
+- [熱心な REST 信者、が 挑んだ AppSync/GraphQL API 開発](2021-serverless-meetup-japan-virtual-14) .event-name[@Serverless Meetup Japan Virtual #14]
+
 - [Pact Contract Based Testing の手法を使ってサーバーレスの非同期テストのやりづらさを解決できるか](2020-serverless-meetup-japan-virtual-4) .event-name[@Serverless Meetup Japan Virtual #4]
 
 - [WordPress と SSG で作る、情報発信サイト の JAMstack な PWA](2019-pwa-night-11) .event-name[@PWA Night vol.11]
